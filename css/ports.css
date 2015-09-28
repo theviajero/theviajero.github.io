@@ -1,0 +1,22 @@
+body { padding-top: 70px;
+        font-family: 'Inconsolata', ;
+}
+
+#home{
+   background-image:url("http://theviajerock.tk/img/mybackground.jpg");
+  background-size:100% auto;
+
+  font-family: 'Inconsolata';
+  font-size:100%;
+}
+#aboutme{
+  background-image:url("http://theviajerock.tk/img/myimg6.jpg");
+background-size:100% auto;
+  background-position:center;
+
+  
+
+font-size:100%;
+color: #ffffff;
+}
+
