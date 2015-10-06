@@ -7,7 +7,7 @@
 .. description: :
 .. type: text
 
-For a long time i wanted to start a blog by multiple reasons, like for example put the things that i learn every day, whether they are or not techology, but specially technology. Also to write about procedures, tutorials for me (And that maybe can be useful to someone else), questions that i had, i searched, i answered, but with the time i forget and i had to search again.
+For a long time i wanted to start a blog by multiple reasons, like for example put the things that i learn every day, whether they are or not technology, but especially technology. Also to write about procedures, tutorials for me (And that maybe can be useful to someone else), questions that i had, i searched, i answered, but with the time i forget and i had to search again.
 
 I want also through the creation of content for this site, to get better my english language skills (German language in a future too), and also, even is my native language, of spanish too. At this moment i am not an expert in nothing, i've seen themes by here and by there, so you could say that this is not the most reliable site to apply concepts, but the idea is to show my learning path and if this can be helpful to somebody, well, welcome.
 
