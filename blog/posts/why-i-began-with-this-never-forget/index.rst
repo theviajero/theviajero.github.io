@@ -6,6 +6,7 @@
 .. link: 
 .. description: :
 .. type: text
+
 For a long time i wanted to start a blog by multiple reasons, like for example put the things that i learn every day, whether they are or not techology, but specially technology. Also to write about procedures, tutorials for me (And that maybe can be useful to someone else), questions that i had, i searched, i answered, but with the time i forget and i had to search again.
 I want also through the creation of content for this site, to get better my english language skills (German language in a future too), and also, even is my native language, of spanish too. At this moment i am not an expert in nothing, i've seen themes by here and by there, so you could say that this is not the most reliable site to apply concepts, but the idea is to show my learning path and if this can be helpful to somebody, well, welcome.
 I have decided to go by the path of development, in fact, i've been studying Python/Js about three years ago at a rate overwhelmingly slow, that un retrospective shows me all the time that i lost, and even so, how much i've learned. For several months until the day that this post was writen, i accelerated the speed of my self-study and i've learned a lot of things more deeply.
