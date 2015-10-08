@@ -17,15 +17,16 @@ He decidido irme por el camino del desarrollo, de hecho hace mas o menos tres a�
 
 Por ultimo escribiré los temas que hasta el momento manejo o que quiero aprender y pondré también una escala de medición acerca de mi conocimiento en estos, además estos serán los temas o herramientas que quiero perfeccionar  llegar a manejar, así que posiblemente en un futuro haga una revisión de esto y compare cuanto avance he hecho. Las categorías para la medición serán; 1 para "Sin experiencia pero quiero aprender", 2 para "Con experiencia previa pero oxidado", 3 para "Proeficiente", 4 para "Experto".
 
-* `Python <http://www.python.org/>`_ - 2 (Mi favorito)
-* Javascript - 3 (Aprendido en trabajos anteriores, tutoriales y muy especialmente en freecodecamp)
-* Html - 3
-* Css - 2
-* `Vim <http://www.vim.org/>`_ - 3 (Aprendido gracias a una de las personas mas inteligentes que conozco en este campo)
 * Linux - 3 (Mucho por aprender todavia, pero muy comodo al usarlo)
+* Html - 3
+* `Vim <http://www.vim.org/>`_ - 3 (Aprendido gracias a una de las personas mas inteligentes que conozco en este campo)
+* git - 3
+* Javascript - 3 (Aprendido en trabajos anteriores, tutoriales y muy especialmente en freecodecamp)
+* `Python <http://www.python.org/>`_ - 2 (Mi favorito)
+* Networking - 2 
+* Css - 2
 * `Systemd-nspawn <http://www.freedesktop.org/software/systemd/man/systemd-nspawn.html>`_ - 2 (Excelente para laboratorios y pruebas, debo mejorar en esto)
 * SQL -2
 * Aerospike - 2
 * RethinkDB - 2
 * Windows Server - 2
-* Networking - 2 
