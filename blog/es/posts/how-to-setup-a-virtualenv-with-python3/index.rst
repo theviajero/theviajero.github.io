@@ -7,33 +7,33 @@
 .. description: 
 .. type: text
 
-This is a topic that use to confuse me, so here i share a very good solution for this. I work with this steps in Debian 8.
+Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.
 
-First at all, be sure that you have installed Python3 on your system, if not, install it.
+Primero que todo, debes estar seguro de que tienes instalado Python3, si no, instalalo.
 
     apt-get install python3.4
 
-Then install pip if you don't have installed it.
+Ahora instala pip si no lo tienes instalado.
 
     wget https://bootstrap.pypa.io/get-pip.py
     
     python3 get-pip.py
 
-Now, install virtualenv and create the environment with python3
+Ahora installa virtualenv, y crea un ambiente con Python3
 
     pip3 install virtualenv
     
-    #Create the virtualenv environment without packages
+    #Crea el ambiente virtualenv sin paquetes
     
     virtualenv projectname --no-site-packages
 
-Use it
+Usalo
 
     cd projectname
     
     source bin/activate
 
-Now you can try typing **python3**. For deactivate the virtualenv:
+Ahora pruebalo escribiendo "python3" en consola. Para desactivar virtualenv:
 
     deactivate
 

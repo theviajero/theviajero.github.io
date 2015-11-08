@@ -6,16 +6,17 @@
 <title>How to setup a virtualenv with python3 | Thoughts, ideas and reminders</title>
 <link href="../../../assets/css/all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../../rss.xml">
 <link rel="canonical" href="http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/">
 <!--[if lt IE 9]><script src="../../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Victor Hernandez">
 <link rel="prev" href="../porque-comienzo-esto-nunca-olvidar/" title="¿Porque comienzo esto?... Nunca olvidar." type="text/html">
+<link rel="next" href="../how-to-use-rsync/" title="How to use rsync" type="text/html">
 <meta property="og:site_name" content="Thoughts, ideas and reminders">
 <meta property="og:title" content="How to setup a virtualenv with python3">
 <meta property="og:url" content="http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/">
-<meta property="og:description" content="This is a topic that use to confuse me, so here i share a very good solution for this. I work with this steps in Debian 8.
-First at all, be sure that you have installed Python3 on your system, if not,">
+<meta property="og:description" content="Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.
+Primero que todo, debes estar seguro de que tienes instalado Python">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2015-11-08T11:42:34-05:00">
 <meta property="article:tag" content="python3">
@@ -67,30 +68,34 @@ First at all, be sure that you have installed Python3 on your system, if not,">
         </p>
 </div>
         
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">También disponible en:</h3>
+                <p><a href="../../../posts/how-to-setup-a-virtualenv-with-python3/" rel="alternate" hreflang="en">English</a></p>
+        </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>This is a topic that use to confuse me, so here i share a very good solution for this. I work with this steps in Debian 8.</p>
-<p>First at all, be sure that you have installed Python3 on your system, if not, install it.</p>
+<p>Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.</p>
+<p>Primero que todo, debes estar seguro de que tienes instalado Python3, si no, instalalo.</p>
 <blockquote>
 apt-get install python3.4</blockquote>
-<p>Then install pip if you don't have installed it.</p>
+<p>Ahora instala pip si no lo tienes instalado.</p>
 <blockquote>
 <p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
 <p>python3 get-pip.py</p>
 </blockquote>
-<p>Now, install virtualenv and create the environment with python3</p>
+<p>Ahora installa virtualenv, y crea un ambiente con Python3</p>
 <blockquote>
 <p>pip3 install virtualenv</p>
-<p>#Create the virtualenv environment without packages</p>
+<p>#Crea el ambiente virtualenv sin paquetes</p>
 <p>virtualenv projectname --no-site-packages</p>
 </blockquote>
-<p>Use it</p>
+<p>Usalo</p>
 <blockquote>
 <p>cd projectname</p>
 <p>source bin/activate</p>
 </blockquote>
-<p>Now you can try typing <strong>python3</strong>. For deactivate the virtualenv:</p>
+<p>Ahora pruebalo escribiendo "python3" en consola. Para desactivar virtualenv:</p>
 <blockquote>
 deactivate</blockquote>
 </div>
@@ -102,6 +107,9 @@ deactivate</blockquote>
 <ul class="pager hidden-print">
 <li class="previous">
                 <a href="../porque-comienzo-esto-nunca-olvidar/" rel="prev" title="¿Porque comienzo esto?... Nunca olvidar.">Publicación anterior</a>
+            </li>
+            <li class="next">
+                <a href="../how-to-use-rsync/" rel="next" title="How to use rsync">Siguiente publicación</a>
             </li>
         </ul></nav></aside><section class="comments hidden-print"><h2>Comentarios</h2>
         
