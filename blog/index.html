@@ -7,10 +7,10 @@
 <title>Thoughts, ideas and reminders | Thoughts, ideas and reminders</title>
 <link href="assets/css/all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (es)" href="es/rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="rss.xml">
 <link rel="canonical" href="http://theviajerock.github.io/myportfolio/blog/">
-<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/why-i-began-with-this-never-forget/" type="text/html">
+<!--[if lt IE 9]><script src="assets/js/html5.js"></script><![endif]--><link rel="prefetch" href="posts/how-to-setup-a-virtualenv-with-python3/" type="text/html">
 </head>
 <body>
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -47,7 +47,44 @@
         
 
 <div class="posts">
-    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/why-i-began-with-this-never-forget/" class="u-url">Why i began with this?... Never forget.</a></h1>
+    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/how-to-setup-a-virtualenv-with-python3/" class="u-url">How to setup a virtualenv with python3</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
+            <p class="dateline"><a href="posts/how-to-setup-a-virtualenv-with-python3/" rel="bookmark"><time class="post-date published dt-published" datetime="2015-11-08T11:42:34-05:00" title="2015-11-08 11:42">2015-11-08 11:42</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>This is a topic that use to confuse me, so here i share a very good solution for this. I work with this steps in Debian 8.</p>
+<p>First at all, be sure that you have installed Python3 on your system, if not, install it.</p>
+<blockquote>
+apt-get install python3.4</blockquote>
+<p>Then install pip if you don't have installed it.</p>
+<blockquote>
+<p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+<p>python3 get-pip.py</p>
+</blockquote>
+<p>Now, install virtualenv and create the environment with python3</p>
+<blockquote>
+<p>pip3 install virtualenv</p>
+<p>#Create the virtualenv environment without packages</p>
+<p>virtualenv projectname --no-site-packages</p>
+</blockquote>
+<p>Use it</p>
+<blockquote>
+<p>cd projectname</p>
+<p>source bin/activate</p>
+</blockquote>
+<p>Now you can try typing <strong>python3</strong>. For deactivate the virtualenv:</p>
+<blockquote>
+deactivate</blockquote>
+</div>
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/why-i-began-with-this-never-forget/" class="u-url">Why i began with this?... Never forget.</a></h1>
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
             <p class="dateline"><a href="posts/why-i-began-with-this-never-forget/" rel="bookmark"><time class="post-date published dt-published" datetime="2015-10-05T19:06:32-05:00" title="2015-10-05 19:06">2015-10-05 19:06</time></a></p>

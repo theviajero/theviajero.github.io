@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/archive.html</loc>
-  <lastmod>2015-11-08T16:38:00Z</lastmod>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/categories/</loc>
-  <lastmod>2015-11-08T16:12:00Z</lastmod>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/categories/javascript/</loc>
@@ -34,6 +34,10 @@
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
  <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/python3/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/categories/technology/</loc>
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
@@ -46,6 +50,10 @@
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
  <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/virtualenv/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/</loc>
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
@@ -55,11 +63,11 @@
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/archive.html</loc>
-  <lastmod>2015-11-08T16:38:00Z</lastmod>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/</loc>
-  <lastmod>2015-11-08T16:12:00Z</lastmod>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/javascript/</loc>
@@ -74,6 +82,10 @@
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
  <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/python3/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/technology/</loc>
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
@@ -86,8 +98,17 @@
   <lastmod>2015-11-08T16:12:00Z</lastmod>
  </url>
  <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/virtualenv/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/galleries/</loc>
   <lastmod>2015-11-08T16:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://theviajerock.github.io/myportfolio/blog/posts/how-to-setup-a-virtualenv-with-python3/" />
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/es/posts/porque-comienzo-esto-nunca-olvidar/</loc>
@@ -105,6 +126,11 @@
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/listings/</loc>
   <lastmod>2015-11-08T16:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/posts/how-to-setup-a-virtualenv-with-python3/</loc>
+  <lastmod>2015-11-08T17:13:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="es" href="http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/" />
  </url>
  <url>
   <loc>http://theviajerock.github.io/myportfolio/blog/posts/why-i-began-with-this-never-forget/</loc>
