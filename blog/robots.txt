@@ -1,4 +1,4 @@
-Sitemap: http://theviajerock.tk/sitemapindex.xml
+Sitemap: http://theviajerock.github.io/myportfolio/blog/sitemapindex.xml
 
 User-Agent: *
-Host: theviajerock.tk
+Host: theviajerock.github.io
