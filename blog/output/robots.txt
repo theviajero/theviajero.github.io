@@ -1,0 +1,4 @@
+Sitemap: http://theviajerock.tk/sitemapindex.xml
+
+User-Agent: *
+Host: theviajerock.tk
