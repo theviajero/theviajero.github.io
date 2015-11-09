@@ -14,9 +14,16 @@
 <meta property="og:site_name" content="Thoughts, ideas and reminders">
 <meta property="og:title" content="How to use rsync">
 <meta property="og:url" content="http://theviajerock.github.io/myportfolio/blog/posts/how-to-use-rsync/">
-<meta property="og:description" content="Write your post here.">
+<meta property="og:description" content="The most common uses of rsync are:
+I have two folders, folder1 and folder2  in different locations, i will copy the content of folder1 to folder2.
+
+rsync -r folder1/* folder2
+
+Options
+rsync has many o">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2015-11-08T12:37:24-05:00">
+<link rel="alternate" hreflang="es" href="../../es/posts/how-to-use-rsync/">
 </head>
 <body>
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -63,9 +70,26 @@
         </p>
 </div>
         
+        <div class="metadata posttranslations translations">
+            <h3 class="posttranslations-intro">Also available in:</h3>
+                <p><a href="../../es/posts/how-to-use-rsync/" rel="alternate" hreflang="es">Español</a></p>
+        </div>
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p>Write your post here.</p>
+    <div>
+<p>The most common uses of rsync are:</p>
+<p>I have two folders, <em>folder1</em> and <em>folder2</em>  in different locations, i will copy the content of <em>folder1</em> to <em>folder2</em>.</p>
+<blockquote>
+rsync -r folder1/* folder2</blockquote>
+<div class="section" id="options">
+<h2>Options</h2>
+<p>rsync has many options that allow a lot of different actions:</p>
+<p><strong>-r</strong>: This option mean recursion, this tells rsync to copy all including the files or folders that are inside other folders.</p>
+<p>For recursive copy you can use the <strong>-a</strong> option too, also this option allow preserve modification times, groups, owner and permissions.</p>
+<p><strong>-v</strong>: This option activate verbose for the current command, with this you can see more details of the operation.</p>
+<p><strong>-h</strong>: With the -h option you can produce a more readable output when execute a rsync command.</p>
+</div>
+</div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">

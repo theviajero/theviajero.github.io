@@ -58,7 +58,20 @@
         </p>
 </div>
     </header><div class="e-content entry-content">
-    <p>Write your post here.</p>
+    <div>
+<p>The most common uses of rsync are:</p>
+<p>I have two folders, <em>folder1</em> and <em>folder2</em>  in different locations, i will copy the content of <em>folder1</em> to <em>folder2</em>.</p>
+<blockquote>
+rsync -r folder1/* folder2</blockquote>
+<div class="section" id="options">
+<h2>Options</h2>
+<p>rsync has many options that allow a lot of different actions:</p>
+<p><strong>-r</strong>: This option mean recursion, this tells rsync to copy all including the files or folders that are inside other folders.</p>
+<p>For recursive copy you can use the <strong>-a</strong> option too, also this option allow preserve modification times, groups, owner and permissions.</p>
+<p><strong>-v</strong>: This option activate verbose for the current command, with this you can see more details of the operation.</p>
+<p><strong>-h</strong>: With the -h option you can produce a more readable output when execute a rsync command.</p>
+</div>
+</div>
     </div>
     </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/how-to-setup-a-virtualenv-with-python3/" class="u-url">How to setup a virtualenv with python3</a></h1>
         <div class="metadata">
