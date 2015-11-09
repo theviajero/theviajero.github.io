@@ -14,7 +14,7 @@ Tengo dos carpetas, *carpeta1* y *carpeta2*, voy a copiar todo el contenido de *
     rsync -r folder1/* folder2
 
 Opciones
--------
+--------
 
 rsync tiene muchas opciones que permiten obtener diferentes resultados:
 

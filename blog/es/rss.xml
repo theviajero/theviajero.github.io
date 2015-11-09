@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Thoughts, ideas and reminders</title><link>http://theviajerock.github.io/myportfolio/blog/</link><description>This site contains my ideas and thoughts about anything, specially Python, Javascript, Linux, Vim... A lot of things...</description><atom:link href="http://theviajerock.github.io/myportfolio/blog/es/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>es</language><lastBuildDate>Mon, 09 Nov 2015 00:16:11 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to use rsync</title><link>http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-use-rsync/</link><dc:creator>Victor Hernandez</dc:creator><description>&lt;div&gt;&lt;p&gt;Tengo dos carpetas, &lt;em&gt;carpeta1&lt;/em&gt; y &lt;em&gt;carpeta2&lt;/em&gt;, voy a copiar todo el contenido de &lt;em&gt;carpeta1&lt;/em&gt; a &lt;em&gt;carpeta2&lt;/em&gt;.&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Thoughts, ideas and reminders</title><link>http://theviajerock.github.io/myportfolio/blog/</link><description>This site contains my ideas and thoughts about anything, specially Python, Javascript, Linux, Vim... A lot of things...</description><atom:link rel="self" href="http://theviajerock.github.io/myportfolio/blog/es/rss.xml" type="application/rss+xml"></atom:link><language>es</language><lastBuildDate>Mon, 09 Nov 2015 00:19:41 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to use rsync</title><link>http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-use-rsync/</link><dc:creator>Victor Hernandez</dc:creator><description>&lt;div&gt;&lt;p&gt;Tengo dos carpetas, &lt;em&gt;carpeta1&lt;/em&gt; y &lt;em&gt;carpeta2&lt;/em&gt;, voy a copiar todo el contenido de &lt;em&gt;carpeta1&lt;/em&gt; a &lt;em&gt;carpeta2&lt;/em&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 rsync -r folder1/* folder2&lt;/blockquote&gt;
 &lt;div class="section" id="opciones"&gt;
 &lt;h2&gt;Opciones&lt;/h2&gt;
-&lt;div class="system-message"&gt;
-&lt;p class="system-message-title"&gt;System Message: WARNING/2 (&lt;tt class="docutils"&gt;&amp;lt;string&amp;gt;&lt;/tt&gt;, line 8)&lt;/p&gt;
-&lt;p&gt;Title underline too short.&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-Opciones
--------
-&lt;/pre&gt;
-&lt;/div&gt;
 &lt;p&gt;rsync tiene muchas opciones que permiten obtener diferentes resultados:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;-r&lt;/strong&gt;: Esta opcion significa recursión, esto le dice a rsync que copie todo lo que hay dentro de la carpeta y subcarpetas.&lt;/p&gt;
 &lt;p&gt;Para copia recursiva tambien se puede usar la opción &lt;strong&gt;-a&lt;/strong&gt;, ademas esta opción permite preservar tiempo de modificación, grupos, dueños y permisos de archivos.&lt;/p&gt;
