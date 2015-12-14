@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    
+<style>
+body{
+  
+  background-color:#333;
+}
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+
+
+
+#clock-large {
+background-color:#333;
+font-family: 'Orbitron', sans-serif;
+font-size:60px;
+text-shadow:0px 0px 1px #fff;
+color:#fff;
+}
+
+</style>
+    </head>
+
+    <body>
+        <div class="col-md-12" ng-app="pomodoroApp" ng-controller="pomodoroCtrl">
+    <div class="col-md-12 col-lg-10">
+      <svg id="fillgauge1" width="97%" height="250"></svg>
+    </div>
+    <div class="col-md-6 col-lg-6 col-centered" >
+      <p id="clock-large">{{minutosReducir}}:{{segundosRestantes}}</p>
+          <button class="btn btn-success" ng-click="sumMin()">Sum</button>
+      <button class="btn btn-danger" ng-click="minusMin()">Minus</button>
+      <button class="btn btn-success" ng-click="start()">Start</button>
+      <button class="btn btn-danger" ng-click="stop()">Pause</button>
+      <button class="btn btn-danger" ng-click="reset()">Reset</button>
+    </div>
+</div>
+
+
+
+
+        <script src="js/angular.min.js"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="js/pomo.js"></script>
+        
+
+    </body>
+
+
+
+</html>

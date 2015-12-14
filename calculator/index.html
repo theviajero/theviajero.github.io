@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+  	    <div id="calculator">
+        <div id="top">
+		    <input id="result" type="text" readonly>
+            <button id="clearButton" onclick="clearResult()">C</button>
+        </div>
+        <div class="calculatorBody">
+  		    <div class="lineOfKeys">
+                <button onclick="pushNumber(7)">7</button>
+				<button onclick="pushNumber(8)">8</button>			
+				<button onclick="pushNumber(9)">9</button>			
+				<button onclick="operation('+')">+</button>			
+			</div>
+			<div class="lineOfKeys">
+			    <button onclick="pushNumber(4)">4</button>			
+			    <button onclick="pushNumber(5)">5</button>			
+			    <button onclick="pushNumber(6)">6</button>			
+                <button onclick="operation('-')">-</button>			
+            </div>
+			<div class="lineOfKeys">
+			    <button onclick="pushNumber(1)">1</button>			
+			    <button onclick="pushNumber(2)">2</button>			
+			    <button onclick="pushNumber(3)">3</button>			
+                <button onclick="operation('*')">*</button>			 
+            </div>
+            <div class="lineOfKeys">
+                <button onclick="pushNumber(0)">0</button>			
+                <button onclick="operation('/')">/</button>			
+      		    <button onclick="pushNumber('.')">.</button>			
+                <button onclick="equal()">=</button>
+            </div>
+        </div>
+	    </div>
+        <a href="http://theviajerock.tk" target="_blank">By Victor Martinez</a>
+			<script src="js/script.js"></script>
+	</body>
+</html>

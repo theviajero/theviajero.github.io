@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " vocab="http://ogp.me/ns" lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="This site contains my ideas and thoughts about anything, specially Python, Javascript, Linux, Vim... A lot of things...">
+<meta name="viewport" content="width=device-width">
+<title>Thoughts, ideas and reminders | Thoughts, ideas and reminders</title>
+<link href="../assets/css/all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="rss.xml">
+<link rel="canonical" href="http://theviajerock.github.io/myportfolio/blog/es/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+    <a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+            styles, `#sidebar-checkbox` for behavior. -->
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"><!-- Toggleable sidebar --><div class="sidebar" id="sidebar">
+        <div class="sidebar-item">
+            <p>A reserved <a href="https://getnikola.com" target="_blank">Nikola</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> for Jekyll,
+            ported to Nikola by <a href="https://twitter.com/ralsina" target="_blank">@ralsina</a>.</p>
+        </div>
+        
+    <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="archive.html">Archivo</a>
+        <a class="sidebar-nav-item" href="categories/">Etiquetas</a>
+        <a class="sidebar-nav-item" href="rss.xml">Canal RSS</a>
+    
+    
+    </nav>
+</div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          
+    <h3 id="brand" class="masthead-title">
+      <a href="http://theviajerock.github.io/myportfolio/blog/es/" title="Thoughts, ideas and reminders" rel="home">Thoughts, ideas and reminders</a>
+    </h3>
+
+        </div>
+      </div>
+
+      <div class="container content" id="content">
+        
+
+<div class="posts">
+    <article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/how-to-use-rsync/" class="u-url">How to use rsync</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
+            <p class="dateline"><a href="posts/how-to-use-rsync/" rel="bookmark"><time class="post-date published dt-published" datetime="2015-11-08T12:37:24-05:00" title="2015-11-08 12:37">2015-11-08 12:37</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Tengo dos carpetas, <em>carpeta1</em> y <em>carpeta2</em>, voy a copiar todo el contenido de <em>carpeta1</em> a <em>carpeta2</em>.</p>
+<blockquote>
+rsync -r folder1/* folder2</blockquote>
+<div class="section" id="opciones">
+<h2>Opciones</h2>
+<p>rsync tiene muchas opciones que permiten obtener diferentes resultados:</p>
+<p><strong>-r</strong>: Esta opcion significa recursión, esto le dice a rsync que copie todo lo que hay dentro de la carpeta y subcarpetas.</p>
+<p>Para copia recursiva tambien se puede usar la opción <strong>-a</strong>, ademas esta opción permite preservar tiempo de modificación, grupos, dueños y permisos de archivos.</p>
+<p><strong>-v</strong>: Esta opción activa el detalle para la operación ejecutada, asi se obtendrá mas información de lo que se esta haciendo y del resultado del mismo.</p>
+<p><strong>-h</strong>: Con la opción -h se puede producir una salida mas legible para el usuario al ejecutar rsync, con datos mas amigables de entender.</p>
+</div>
+</div>
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/how-to-setup-a-virtualenv-with-python3/" class="u-url">How to setup a virtualenv with python3</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
+            <p class="dateline"><a href="posts/how-to-setup-a-virtualenv-with-python3/" rel="bookmark"><time class="post-date published dt-published" datetime="2015-11-08T11:42:34-05:00" title="2015-11-08 11:42">2015-11-08 11:42</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.</p>
+<p>Primero que todo, debes estar seguro de que tienes instalado Python3, si no, instalalo.</p>
+<blockquote>
+apt-get install python3.4</blockquote>
+<p>Ahora instala pip si no lo tienes instalado.</p>
+<blockquote>
+<p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+<p>python3 get-pip.py</p>
+</blockquote>
+<p>Ahora installa virtualenv, y crea un ambiente con Python3</p>
+<blockquote>
+<p>pip3 install virtualenv</p>
+<p>#Crea el ambiente virtualenv sin paquetes</p>
+<p>virtualenv projectname --no-site-packages</p>
+</blockquote>
+<p>Usalo</p>
+<blockquote>
+<p>cd projectname</p>
+<p>source bin/activate</p>
+</blockquote>
+<p>Ahora pruebalo escribiendo "python3" en consola. Para desactivar virtualenv:</p>
+<blockquote>
+deactivate</blockquote>
+</div>
+    </div>
+    </article><article class="post h-entry post-text"><header><h1 class="post-title p-name"><a href="posts/porque-comienzo-esto-nunca-olvidar/" class="u-url">¿Porque comienzo esto?... Nunca olvidar.</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
+            <p class="dateline"><a href="posts/porque-comienzo-esto-nunca-olvidar/" rel="bookmark"><time class="post-date published dt-published" datetime="2015-10-05T19:06:32-05:00" title="2015-10-05 19:06">2015-10-05 19:06</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Desde hace algún tiempo he querido empezar un blog por varios motivos, como por ejemplo plasmar las cosas que aprendo cada día, sean de tecnología o no, pero especialmente de tecnología. También para escribir acerca de procedimientos, tutoriales para mi (Y que quizás le sirvan a alguien mas), preguntas que alguna vez me hice, busque, me respondí, pero que al tiempo olvidé y tuve que volver a buscar.</p>
+<p>Quiero también que mediante la creación de contenido para este sitio, pueda mejorar enormemente el manejo del idioma inglés (Alemán en un futuro) y también , aunque es mi idioma nativo, del español. En este momento no soy un experto en nada, he visto temas por aquí y por allá, así que se podría decir que este no es un sitio totalmente confiable en cuanto a credibilidad, pero la idea es plasmar mi conocimiento y visión de lo que voy aprendiendo, y si esto llega a ser de ayuda para alguien, pues bienvenido.</p>
+<p>He decidido irme por el camino del desarrollo, de hecho hace mas o menos tres años he estado viendo y estudiando esto a un ritmo abrumadoramente lento, que al analizar me muestra el tiempo que he perdido, y aun así, lo mucho que he aprendido. Desde hace unos meses hasta el día en que se escribió este post, he acelerado el ritmo y he aprendido muchas mas cosas a una mayor profundidad.</p>
+<p>Por ultimo escribiré los temas que hasta el momento manejo o que quiero aprender y pondré también una escala de medición acerca de mi conocimiento en estos, además estos serán los temas o herramientas que quiero perfeccionar  llegar a manejar, así que posiblemente en un futuro haga una revisión de esto y compare cuanto avance he hecho. Las categorías para la medición serán; 1 para "Sin experiencia pero quiero aprender", 2 para "Con experiencia previa pero oxidado", 3 para "Proeficiente", 4 para "Experto".</p>
+<ul class="simple">
+<li>Linux - 3 (Mucho por aprender todavia, pero muy comodo al usarlo)</li>
+<li>Html - 3</li>
+<li>
+<a class="reference external" href="http://www.vim.org/">Vim</a> - 3 (Aprendido gracias a una de las personas mas inteligentes que conozco en este campo)</li>
+<li>git - 3</li>
+<li>Javascript - 3 (Aprendido en trabajos anteriores, tutoriales y muy especialmente en freecodecamp)</li>
+<li>
+<a class="reference external" href="http://www.python.org/">Python</a> - 2 (Mi favorito)</li>
+<li>Networking - 2</li>
+<li>Css - 2</li>
+<li>
+<a class="reference external" href="http://www.freedesktop.org/software/systemd/man/systemd-nspawn.html">Systemd-nspawn</a> - 2 (Excelente para laboratorios y pruebas, debo mejorar en esto)</li>
+<li>SQL -2</li>
+<li>Aerospike - 2</li>
+<li>RethinkDB - 2</li>
+<li>Windows Server - 2</li>
+</ul>
+</div>
+    </div>
+    </article>
+</div>
+
+
+
+        
+
+
+
+
+
+        
+        <footer id="footer"><p>Contents © 2015         <a href="mailto:victorliferock@gmail.com">Victor Hernandez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    </div>
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    
+    
+    
+    
+
+    
+</body>
+</html>
