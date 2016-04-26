@@ -1,0 +1,1260 @@
+p   bpython3                        - fancy interface to the Python3 interpreter
+p   diveintopython3                 - book for learning Python 3                
+p   games-python3-dev               - development of games in Python 3          
+p   idle-python3.4                  - IDE for Python (v3.4) using Tkinter       
+p   ipython3                        - enhanced interactive Python 3 shell       
+p   ipython3-notebook               - interactive Python 3 html notebook        
+p   ipython3-qtconsole              - enhanced interactive Python 3 shell - Qt c
+p   libpython3-all-dbg              - package depending on all supported Python 
+p   libpython3-all-dbg:i386         - package depending on all supported Python 
+p   libpython3-all-dev              - package depending on all supported Python 
+p   libpython3-all-dev:i386         - package depending on all supported Python 
+p   libpython3-dbg                  - debug build of the Python 3 Interpreter (v
+p   libpython3-dbg:i386             - debug build of the Python 3 Interpreter (v
+i A libpython3-dev                  - header files and a static library for Pyth
+p   libpython3-dev:i386             - header files and a static library for Pyth
+i A libpython3-stdlib               - interactive high-level object-oriented lan
+p   libpython3-stdlib:i386          - interactive high-level object-oriented lan
+i A libpython3.4                    - Shared Python runtime library (version 3.4
+p   libpython3.4:i386               - Shared Python runtime library (version 3.4
+p   libpython3.4-dbg                - Debug Build of the Python Interpreter (ver
+p   libpython3.4-dbg:i386           - Debug Build of the Python Interpreter (ver
+i A libpython3.4-dev                - Header files and a static library for Pyth
+p   libpython3.4-dev:i386           - Header files and a static library for Pyth
+i A libpython3.4-minimal            - Minimal subset of the Python language (ver
+p   libpython3.4-minimal:i386       - Minimal subset of the Python language (ver
+i A libpython3.4-stdlib             - Interactive high-level object-oriented lan
+p   libpython3.4-stdlib:i386        - Interactive high-level object-oriented lan
+p   libpython3.4-testsuite          - Testsuite for the Python standard library 
+p   postgresql-9.4-python3-multicor - multicorn extension for Postgres 9.4 to wr
+p   postgresql-9.4-python3-multicor - multicorn extension for Postgres 9.4 to wr
+v   postgresql-plpython3            -                                           
+v   postgresql-plpython3:i386       -                                           
+p   postgresql-plpython3-9.4        - PL/Python 3 procedural language for Postgr
+p   postgresql-plpython3-9.4:i386   - PL/Python 3 procedural language for Postgr
+i A python3                         - interactive high-level object-oriented lan
+p   python3:i386                    - interactive high-level object-oriented lan
+p   python3-aalib                   - Python 3 interface to AAlib, an ASCII art 
+p   python3-acoustid                - Acoustid interface implementation and Chro
+p   python3-actdiag                 - generate activity-diagram image file from 
+p   python3-adios                   - Python3 interace to the ADIOS IO system   
+p   python3-adios:i386              - Python3 interace to the ADIOS IO system   
+p   python3-admesh                  - Python bindings for the ADMesh (Python 3) 
+p   python3-admesh:i386             - Python bindings for the ADMesh (Python 3) 
+p   python3-aeidon                  - reading, writing and manipulating text-bas
+p   python3-ajax-select             - Django library for editing fields with aut
+p   python3-alabaster               - Configurable sidebar-enabled Sphinx theme 
+p   python3-alembic                 - lightweight database migration tool for SQ
+p   python3-all                     - package depending on all supported Python 
+p   python3-all:i386                - package depending on all supported Python 
+p   python3-all-dbg                 - package depending on all supported Python 
+p   python3-all-dbg:i386            - package depending on all supported Python 
+v   python3-all-dbg:any             -                                           
+v   python3-all-dbg:any:i386        -                                           
+p   python3-all-dev                 - package depending on all supported Python 
+p   python3-all-dev:i386            - package depending on all supported Python 
+v   python3-all-dev:any             -                                           
+v   python3-all-dev:any:i386        -                                           
+v   python3-all:any                 -                                           
+v   python3-all:any:i386            -                                           
+p   python3-amqp                    - Low-level AMQP client (Python3 version)   
+p   python3-amqplib                 - simple non-threaded Python AMQP client lib
+p   python3-aniso8601               - python3 library for parsing dates and time
+p   python3-anyjson                 - Common interface for the best available JS
+p   python3-apparmor                - AppArmor Python3 utility library          
+p   python3-apparmor:i386           - AppArmor Python3 utility library          
+p   python3-appconf                 - helper class handling configuration defaul
+p   python3-appdirs                 - determining appropriate platform-specific 
+p   python3-apsw                    - another Python SQLite 3 wrapper (Python 3 
+p   python3-apsw:i386               - another Python SQLite 3 wrapper (Python 3 
+p   python3-apsw-dbg                - another Python 3 SQLite 3 wrapper (debug e
+p   python3-apsw-dbg:i386           - another Python 3 SQLite 3 wrapper (debug e
+p   python3-apt                     - Python 3 interface to libapt-pkg          
+p   python3-apt:i386                - Python 3 interface to libapt-pkg          
+p   python3-apt-dbg                 - Python 3 interface to libapt-pkg (debug ex
+p   python3-apt-dbg:i386            - Python 3 interface to libapt-pkg (debug ex
+v   python3-apt-dbg:any             -                                           
+v   python3-apt-dbg:any:i386        -                                           
+v   python3-apt:any                 -                                           
+v   python3-apt:any:i386            -                                           
+p   python3-aptdaemon               - Python 3 modules for the server and client
+p   python3-aptdaemon.gtk3widgets   - Python 3 GTK+ 3 widgets to run an aptdaemo
+p   python3-aptdaemon.pkcompat      - PackageKit compatibilty for AptDaemon     
+p   python3-aptdaemon.test          - Test environment for aptdaemon clients    
+p   python3-argcomplete             - bash tab completion for argparse (for Pyth
+p   python3-args                    - Command Arguments for Humans (Python 3)   
+p   python3-arpy                    - library for accessing "ar" archives       
+p   python3-arrow                   - Python3 library to manipulate dates, times
+p   python3-astor                   - Python 3 AST manipulator                  
+p   python3-astroid                 - rebuild a new abstract syntax tree from Py
+p   python3-astropy                 - Core functionality for performing astrophy
+p   python3-astropy:i386            - Core functionality for performing astrophy
+p   python3-astropy-helpers         - Utilities to install Astropy affiliated pa
+p   python3-audioread               - Backend-agnostic audio decoding Python 3 p
+p   python3-authres                 - RFC 7001 Authentication Results Header man
+p   python3-awsauth                 - AWS authentication for Amazon S3 for the p
+p   python3-babel                   - tools for internationalizing Python applic
+p   python3-babelfish               - library to work with countries and languag
+p   python3-babeltrace              - Babeltrace conversion libraries           
+p   python3-babeltrace:i386         - Babeltrace conversion libraries           
+p   python3-backup2swift            - backup data to OpenStack Swift - python 3.
+p   python3-bashate                 - bash script style guide checker - Python 3
+p   python3-bcdoc                   - ReST document generation tools for botocor
+p   python3-bcrypt                  - implementation of OpenBSD's Blowfish passw
+p   python3-bcrypt:i386             - implementation of OpenBSD's Blowfish passw
+p   python3-beaker                  - cache and session library for Python 3    
+p   python3-billiard                - Multiprocessing Pool Extensions for Python
+p   python3-billiard:i386           - Multiprocessing Pool Extensions for Python
+p   python3-binaryornot             - check if a file is binary or text (Python 
+p   python3-biopython               - Python library for bioinformatics (impleme
+p   python3-biopython:i386          - Python library for bioinformatics (impleme
+p   python3-biopython-sql           - Biopython support for the BioSQL database 
+p   python3-bitarray                - Python3 module for efficient boolean array
+p   python3-bitarray:i386           - Python3 module for efficient boolean array
+p   python3-bleach                  - whitelist-based HTML-sanitizing library (P
+p   python3-blinker                 - fast, simple object-to-object and broadcas
+p   python3-blist                   - List-like type for Python 3 with better as
+p   python3-blist:i386              - List-like type for Python 3 with better as
+p   python3-blockdiag               - generate block-diagram image file from spe
+p   python3-bootstrapform           - generate twitter-bootstrap form output for
+p   python3-boto                    - Python interface to Amazon's Web Services 
+p   python3-botocore                - Low-level, data-driven core of boto 3 (Pyt
+p   python3-bottle                  - fast and simple WSGI-framework for Python3
+p   python3-braintree               - Braintree Python library (Python 3)       
+p   python3-breathe                 - Sphinx autodox support for languages other
+p   python3-brlapi                  - Braille display access via BRLTTY - Python
+p   python3-brlapi:i386             - Braille display access via BRLTTY - Python
+p   python3-bs4                     - error-tolerant HTML parser for Python 3   
+p   python3-bsddb3                  - Python interface for Berkeley DB (Python 3
+p   python3-bsddb3:i386             - Python interface for Berkeley DB (Python 3
+p   python3-bsddb3-dbg              - Python interface for Berkeley DB (debug ex
+p   python3-bsddb3-dbg:i386         - Python interface for Berkeley DB (debug ex
+p   python3-bson                    - Python3 implementation of BSON for MongoDB
+p   python3-bson:i386               - Python3 implementation of BSON for MongoDB
+p   python3-bson-ext                - C-coded extension to the python3-bson pack
+p   python3-bson-ext:i386           - C-coded extension to the python3-bson pack
+p   python3-cairo                   - Python 3 bindings for the Cairo vector gra
+p   python3-cairo:i386              - Python 3 bindings for the Cairo vector gra
+p   python3-cairo-dev               - Python 3 cairo bindings: development files
+p   python3-cairo-doc               - Python 3 cairo bindings: documentation fil
+p   python3-cairocffi               - cffi-based cairo bindings for Python (Pyth
+p   python3-cairosvg                - SVG to PDF/PS/PNG converter based on Cairo
+p   python3-cdo                     - Python3 module for Climate Data Operators 
+p   python3-cdo:i386                - Python3 module for Climate Data Operators 
+p   python3-celery                  - async task/job queue based on message pass
+p   python3-cerealizer              - secure pickle-like module for Python 3    
+p   python3-cffi                    - Foreign Function Interface for Python 3 ca
+p   python3-cffi:i386               - Foreign Function Interface for Python 3 ca
+p   python3-cffi-dbg                - Foreign Function Interface for Python 3 ca
+p   python3-cffi-dbg:i386           - Foreign Function Interface for Python 3 ca
+p   python3-chameleon               - XML-based template compiler               
+p   python3-changelog               - Sphinx extension to generate changelog fil
+p   python3-characteristic          - helper for implementing attribute-related 
+p   python3-chardet                 - universal character encoding detector for 
+p   python3-checkbox-ng             - PlainBox based test runner (Python 3 libra
+p   python3-checkbox-ng-doc         - PlainBox based test runner (documentation)
+p   python3-checkbox-support        - collection of Python modules used by Plain
+p   python3-cherrypy3               - Python 3 web development framework - versi
+p   python3-cigi                    - Python bindings for the CIGI class library
+p   python3-cigi:i386               - Python bindings for the CIGI class library
+p   python3-circuits                - event-driven framework with a component ar
+p   python3-cliff                   - command line interface formulation framewo
+p   python3-clint                   - Python Command-line Application Tools     
+p   python3-cloud-sptheme           - Cloud Sphinx theme and related extensions 
+p   python3-cmd2                    - enhanced Python cmd module - Python 3.x   
+p   python3-coffin                  - Jinja2 adapter for Django - Python 3.x    
+p   python3-colander                - simple schema-based serialization and dese
+p   python3-colorama                - Cross-platform colored terminal text in Py
+p   python3-colorlog                - formatter to use with the logging module o
+p   python3-comedilib               - Python3 wrapper for Comedilib             
+p   python3-comedilib:i386          - Python3 wrapper for Comedilib             
+p   python3-configobj               - simple but powerful config file reader and
+p   python3-construct               - powerful declarative parser (and builder) 
+p   python3-cookiecutter            - create projects from project templates (Py
+p   python3-cov-core                - plugin core for use by pytest-cov, nose-co
+p   python3-coverage                - code coverage tool for Python 3           
+p   python3-coverage:i386           - code coverage tool for Python 3           
+p   python3-coverage-dbg            - code coverage tool for Python 3 – debug li
+p   python3-coverage-dbg:i386       - code coverage tool for Python 3 – debug li
+p   python3-cracklib                - Python3 bindings for password checker libr
+p   python3-cracklib:i386           - Python3 bindings for password checker libr
+p   python3-crcmod                  - CRC Generator - python 3.x                
+p   python3-crcmod:i386             - CRC Generator - python 3.x                
+p   python3-croniter                - provides iteration for datetime object wit
+p   python3-crontab                 - Python3 module for reading and writing cro
+p   python3-crypto                  - cryptographic algorithms and protocols for
+p   python3-crypto:i386             - cryptographic algorithms and protocols for
+p   python3-crypto-dbg              - cryptographic algorithms and protocols for
+p   python3-crypto-dbg:i386         - cryptographic algorithms and protocols for
+p   python3-cryptography            - Python library exposing cryptographic reci
+p   python3-cryptography:i386       - Python library exposing cryptographic reci
+p   python3-cryptography-vectors    - Test vectors for python-cryptography (Pyth
+p   python3-csb                     - Python framework for structural bioinforma
+p   python3-cssselect               - cssselect parses CSS3 Selectors and transl
+p   python3-cssutils                - Python3 CSS Cascading Style Sheets parser 
+p   python3-cxx-dev                 - Set of facilities to extend Python3 with C
+p   python3-d2to1                   - Python3 support for distutils2-like setup.
+p   python3-dateutil                - powerful extensions to the standard dateti
+p   python3-dbg                     - debug build of the Python 3 Interpreter (v
+p   python3-dbg:i386                - debug build of the Python 3 Interpreter (v
+v   python3-dbg:any                 -                                           
+v   python3-dbg:any:i386            -                                           
+p   python3-dbus                    - simple interprocess messaging system (Pyth
+p   python3-dbus:i386               - simple interprocess messaging system (Pyth
+p   python3-dbus-dbg                - debug build of the D-Bus Python 3 interfac
+p   python3-dbus-dbg:i386           - debug build of the D-Bus Python 3 interfac
+p   python3-dbus.mainloop.pyqt5     - D-Bus Support for PyQt5 with Python 3     
+p   python3-dbus.mainloop.pyqt5:i38 - D-Bus Support for PyQt5 with Python 3     
+p   python3-dbus.mainloop.pyqt5-dbg - D-Bus Support for PyQt5 (debug extensions 
+p   python3-dbus.mainloop.pyqt5-dbg - D-Bus Support for PyQt5 (debug extensions 
+p   python3-dbus.mainloop.qt        - D-Bus Support for PyQt4 with Python 3     
+p   python3-dbus.mainloop.qt:i386   - D-Bus Support for PyQt4 with Python 3     
+p   python3-dbus.mainloop.qt-dbg    - D-Bus Support for PyQt4 (debug extensions 
+p   python3-dbus.mainloop.qt-dbg:i3 - D-Bus Support for PyQt4 (debug extensions 
+p   python3-dbusmock                - mock D-Bus objects for tests (Python 3)   
+v   python3-dbusmock:i386           -                                           
+p   python3-deap                    - Distributed Evolutionary Algorithms in Pyt
+p   python3-debian                  - Python 3 modules to work with Debian-relat
+p   python3-debtagshw               - Match debtags hardware:: tags against the 
+p   python3-decorator               - simplify usage of Python decorators by pro
+p   python3-defer                   - Small framework for asynchronous programmi
+p   python3-defusedxml              - XML bomb protection for Python stdlib modu
+p   python3-deltarpm                - Python3 bindings for deltarpm             
+p   python3-deltarpm:i386           - Python3 bindings for deltarpm             
+p   python3-demjson                 - encoder, decoder, and lint/validator for J
+i   python3-dev                     - header files and a static library for Pyth
+p   python3-dev:i386                - header files and a static library for Pyth
+v   python3-dev:any                 -                                           
+v   python3-dev:any:i386            -                                           
+p   python3-dexml                   - Dead-simple Object-XML mapper for Python3 
+p   python3-dialog                  - Python module for making simple terminal-b
+p   python3-dib-utils               - Standalone tools related to diskimage-buil
+p   python3-diff-match-patch        - robust algorithms for synchronizing plain 
+p   python3-dirspec                 - Python User Folders Specification Library 
+p   python3-distlib                 - low-level components of python distutils2/
+p   python3-distro-info             - information about distributions' releases 
+p   python3-distutils-extra         - enhancements to the Python3 build system  
+p   python3-django                  - High-level Python web development framewor
+p   python3-django-captcha          - Django Simple Captcha Django application  
+p   python3-django-celery           - Celery integration for Django             
+p   python3-django-classy-tags      - Class based template tags for Django proje
+p   python3-django-countries        - provides a country field for Django models
+p   python3-django-debug-toolbar    - Embedded debugging toolbar for Django proj
+p   python3-django-discover-runner  - alternative Django test runner - Python 3.
+p   python3-django-filters          - filter Django QuerySets based on user sele
+p   python3-django-floppyforms      - better control of form rendering in Django
+p   python3-django-guardian         - per object permissions of django for Pytho
+p   python3-django-jsonfield        - JSON field for Django models (Python 3)   
+p   python3-django-markupfield      - custom Django field for easy use of markup
+p   python3-django-model-utils      - Django model mixins and utilities         
+p   python3-django-nose             - Django test runner that uses python-nose  
+p   python3-django-picklefield      - Pickled object field for Django (Python3 v
+p   python3-django-pipeline         - Asset packaging library for Django        
+p   python3-django-polymorphic      - Seamless Polymorphic Inheritance for Djang
+p   python3-django-ratelimit        - Cache-based rate-limiting for Django      
+p   python3-django-reversion        - Provides comprehensive version control fac
+p   python3-django-sekizai          - template blocks for Django projects (Pytho
+p   python3-django-shortuuidfield   - Short UUIDField for Django for Python 3   
+p   python3-django-sitetree         - site tree, menu and breadcrumbs navigation
+p   python3-django-tables2          - Table/data-grid framework for Django      
+p   python3-django-tastypie         - webservice API framework for Django (Pytho
+p   python3-django-xmlrpc           - XMLRPC library for Django                 
+p   python3-djangorestframework     - Web APIs for Django, made easy for Python3
+p   python3-djvu                    - Python3 support for the DjVu image format 
+p   python3-djvu:i386               - Python3 support for the DjVu image format 
+p   python3-djvu-dbg                - Python3 support for the DjVu image format 
+p   python3-djvu-dbg:i386           - Python3 support for the DjVu image format 
+p   python3-dkim                    - Python 3 module for DKIM signing and verif
+p   python3-dns                     - DNS client module for Python 3            
+p   python3-dnspython               - DNS toolkit for Python (Python 3)         
+p   python3-dnsq                    - Python DNS query tool                     
+p   python3-doc                     - documentation for the high-level object-or
+p   python3-docker                  - Python 3 wrapper to access docker.io's con
+p   python3-docopt                  - command-line interface description languag
+p   python3-docutils                - text processing system for reStructuredTex
+p   python3-dogpile.cache           - caching front-end based on the Dogpile loc
+p   python3-dogpile.core            - dogpile lock, typically used in larger cac
+p   python3-doit                    - Automation tool (Python3) to execute any k
+p   python3-doublex                 - test doubles framework for Python 3       
+p   python3-drslib                  - Library for processing the CMIP5 Data Refe
+p   python3-dugong                  - HTTP 1.1 client module for Python         
+p   python3-dvdvideo                - Video DVD reader library                  
+p   python3-easygui                 - module for very simple, very easy GUI prog
+p   python3-ebooklib                - Python 3 E-book library for handling EPUB2
+p   python3-ecdsa                   - ECDSA cryptographic signature library (Pyt
+p   python3-elasticsearch           - Python client for Elasticsearch (Python3 v
+p   python3-elektra                 - elektra configuration store, Python 3 bind
+p   python3-elektra:i386            - elektra configuration store, Python 3 bind
+p   python3-empy                    - templating system for Python (Python 3)   
+p   python3-enchant                 - spellchecking library for Python 3        
+p   python3-enum34                  - backport of Python 3.4's enum package     
+p   python3-enzyme                  - video metadata parser (Python 3)          
+p   python3-epr                     - Python ENVISAT Product Reader API (Python 
+p   python3-epr:i386                - Python ENVISAT Product Reader API (Python 
+p   python3-epr-dbg                 - Python ENVISAT Product Reader API (debug e
+p   python3-epr-dbg:i386            - Python ENVISAT Product Reader API (debug e
+p   python3-espeak                  - Python bindings for eSpeak                
+p   python3-espeak:i386             - Python bindings for eSpeak                
+p   python3-evemu                   - Linux Input Event Device Emulation Library
+p   python3-evemu:i386              - Linux Input Event Device Emulation Library
+v   python3-evemu:any               -                                           
+v   python3-evemu:any:i386          -                                           
+p   python3-examples                - examples for the Python language (default 
+p   python3-expiringdict            - Python3 caching libarry                   
+p   python3-extras                  - extensions to the Python standard library 
+v   python3-f2py                    -                                           
+v   python3-f2py:i386               -                                           
+p   python3-factory-boy             - test fixtures replacement based on factory
+p   python3-falcon                  - supersonic micro-framework for building cl
+p   python3-falcon:i386             - supersonic micro-framework for building cl
+p   python3-fdb                     - Python3 DB-API driver for Firebird        
+p   python3-feedparser              - Universal Feed Parser for Python 3        
+v   python3-fftw3                   -                                           
+v   python3-fftw3:i386              -                                           
+v   python3-fftw3-dbg               -                                           
+v   python3-fftw3-dbg:i386          -                                           
+p   python3-first                   - simple function that returns the first tru
+p   python3-fiu                     - userspace fault injection framework (Pytho
+p   python3-fiu:i386                - userspace fault injection framework (Pytho
+p   python3-fixtures                - PyUnit extension for defining test fixture
+p   python3-flake8                  - code checker using pep8 and pyflakes (Pyth
+p   python3-flake8:i386             - code checker using pep8 and pyflakes (Pyth
+p   python3-flask                   - micro web framework based on Werkzeug, Jin
+p   python3-flask-openid            - OpenID support for Flask applications (Pyt
+p   python3-flask-principal         - identity management for Flask             
+p   python3-flask-script            - set of utilities for use with the Flask fr
+p   python3-flask-sqlalchemy        - adds SQLAlchemy support to your Flask appl
+p   python3-flexmock                - Mock/Stub/Spy library for Python 3        
+p   python3-flufl.bounce            - email bounce detectors (Python 3)         
+p   python3-flufl.enum              - yet another Python enumeration package (Py
+p   python3-flufl.i18n              - high level API for Python internationaliza
+p   python3-flufl.lock              - NFS-safe file-based lock with timeouts (Py
+p   python3-flufl.password          - password hashing and verification         
+p   python3-fontconfig              - python bindings for the Fontconfig library
+p   python3-fontconfig:i386         - python bindings for the Fontconfig library
+p   python3-fontconfig-dbg          - python bindings for the Fontconfig library
+p   python3-fontconfig-dbg:i386     - python bindings for the Fontconfig library
+p   python3-freezegun               - Python3 library to mock the datetime modul
+p   python3-fudge                   - Python module for using fake objects for t
+p   python3-funcparserlib           - Recursive descent parsing library for pyth
+p   python3-fysom                   - pYthOn Finite State Machine (Python3 packa
+p   python3-gdal                    - Python 3 bindings to the Geospatial Data A
+p   python3-gdal:i386               - Python 3 bindings to the Geospatial Data A
+p   python3-gdbm                    - GNU dbm database support for Python 3.x   
+p   python3-gdbm:i386               - GNU dbm database support for Python 3.x   
+p   python3-gdbm-dbg                - GNU dbm database support for Python 3.x (d
+p   python3-gdbm-dbg:i386           - GNU dbm database support for Python 3.x (d
+p   python3-gearman.libgearman      - Python 3 wrapper of libgearman            
+p   python3-gearman.libgearman:i386 - Python 3 wrapper of libgearman            
+p   python3-geis                    - Python3 bindings for libgeis              
+p   python3-geis:i386               - Python3 bindings for libgeis              
+p   python3-genshi                  - Python XML-based template engine - Python 
+p   python3-genshi:i386             - Python XML-based template engine - Python 
+p   python3-geoip                   - Python3 bindings for the GeoIP IP-to-count
+p   python3-geoip:i386              - Python3 bindings for the GeoIP IP-to-count
+p   python3-geopy                   - geocoding toolbox for Python3             
+p   python3-germinate               - expand dependencies in seed packages (Pyth
+p   python3-gflags                  - implementation of the Google command line 
+p   python3-gi                      - Python 3 bindings for gobject-introspectio
+p   python3-gi:i386                 - Python 3 bindings for gobject-introspectio
+p   python3-gi-cairo                - Python 3 Cairo bindings for the GObject li
+p   python3-gi-cairo:i386           - Python 3 Cairo bindings for the GObject li
+p   python3-gi-dbg                  - Python 3 bindings for gobject-introspectio
+p   python3-gi-dbg:i386             - Python 3 bindings for gobject-introspectio
+p   python3-gmpy2                   - interfaces GMP to Python 3 for fast, unbou
+p   python3-gmpy2:i386              - interfaces GMP to Python 3 for fast, unbou
+p   python3-gnupg                   - Python wrapper for the Gnu Privacy Guard (
+v   python3-gobject                 -                                           
+v   python3-gobject:i386            -                                           
+v   python3-gobject-dbg             -                                           
+v   python3-gobject-dbg:i386        -                                           
+p   python3-google-apputils         - Google Application Utilities - Python 3.x 
+p   python3-googleapi               - Google APIs Client Library - Python 3.x   
+p   python3-googlecloudapis         - collection of utilities for client-side to
+p   python3-gpgme                   - python wrapper for the GPGME library (Pyth
+p   python3-gpgme:i386              - python wrapper for the GPGME library (Pyth
+p   python3-gpgme-dbg               - python wrapper for the GPGME library (debu
+p   python3-gpgme-dbg:i386          - python wrapper for the GPGME library (debu
+p   python3-greenio                 - greenlets for asyncio (PEP 3156). - Python
+p   python3-greenlet                - Lightweight in-process concurrent programm
+p   python3-greenlet:i386           - Lightweight in-process concurrent programm
+p   python3-grib                    - Python 3 module for reading and writing GR
+p   python3-grib:i386               - Python 3 module for reading and writing GR
+p   python3-gridfs                  - Python3 implementation of GridFS for Mongo
+v   python3-grip                    -                                           
+v   python3-grip:i386               -                                           
+p   python3-gst-1.0                 - GStreamer GObject Introspection overrides 
+p   python3-gst-1.0:i386            - GStreamer GObject Introspection overrides 
+p   python3-gst-1.0-dbg             - GStreamer GObject Introspection overrides 
+p   python3-gst-1.0-dbg:i386        - GStreamer GObject Introspection overrides 
+p   python3-gsw                     - Python 3 implementation of the Thermodynam
+p   python3-gtkspellcheck           - spellchecking library written in Python fo
+p   python3-guessit                 - library for guessing information from vide
+p   python3-guestfs                 - guest disk image management system - Pytho
+p   python3-guestfs:i386            - guest disk image management system - Pytho
+p   python3-h5py                    - h5py is a general-purpose Python interface
+p   python3-h5py:i386               - h5py is a general-purpose Python interface
+p   python3-hacking                 - Flake8 OpenStack Hacking Guidelines Enforc
+p   python3-hamcrest                - Hamcrest framework for matcher objects (Py
+p   python3-hivex                   - Python 3 bindings for hivex               
+p   python3-hivex:i386              - Python 3 bindings for hivex               
+p   python3-hplefthandclient        - HP LeftHand/StoreVirtual HTTP REST Client 
+p   python3-html2text               - Python module for converting HTML to Markd
+p   python3-html5lib                - HTML parser/tokenizer based on the WHATWG 
+p   python3-httplib2                - comprehensive HTTP client library written 
+p   python3-httpretty               - HTTP client mock - Python 3.x             
+p   python3-hunspell                - Python 3 binding for Hunspell             
+p   python3-hunspell:i386           - Python 3 binding for Hunspell             
+p   python3-hurry.filesize          - human readable file sizes or anything size
+p   python3-hy                      - Lisp (s-expression) based frontend to Pyth
+p   python3-iapws                   - Python3 implementation of the internationa
+p   python3-icalendar               - parser/generator of iCalendar files for us
+p   python3-icu                     - Python 3 extension wrapping the ICU C++ AP
+p   python3-icu:i386                - Python 3 extension wrapping the ICU C++ AP
+p   python3-icu-dbg                 - Python 3 extension wrapping the ICU C++ AP
+p   python3-icu-dbg:i386            - Python 3 extension wrapping the ICU C++ AP
+p   python3-influxdb                - Python 3 client for InfluxDB              
+p   python3-iowait                  - Platform-independent module for I/O comple
+p   python3-ipdb                    - IPython-based pdb replacement (Python 3 ve
+p   python3-ipy                     - Python3 module for handling IPv4 and IPv6 
+p   python3-iso8601                 - python module to parse ISO 8601 dates - Py
+p   python3-isodate                 - ISO 8601 date/time/duration parser and for
+p   python3-itsdangerous            - Various helpers to pass trusted data to un
+p   python3-jedi                    - autocompletion tool for Python 3          
+p   python3-jingo                   - adapter for using Jinja2 templates with Dj
+p   python3-jinja2                  - small but fast and easy to use stand-alone
+p   python3-jmespath                - JSON Matching Expressions (Python 3)      
+p   python3-joblib                  - tools to provide lightweight pipelining in
+p   python3-jsmin                   - JavaScript minifier written in Python - py
+p   python3-json-patch              - library to apply JSON patches - python 3.x
+p   python3-json-pointer            - resolve JSON pointers - python 3.x        
+p   python3-jsonpatch               - library to apply JSON patches - python 3.x
+p   python3-jsonpath-rw             - extended implementation of JSONPath for Py
+p   python3-jsonpickle              - Python library for serializing object grap
+p   python3-jsonschema              - An(other) implementation of JSON Schema (D
+p   python3-junitxml                - PyUnit extension for reporting in JUnit co
+p   python3-jwt                     - Python 3 implementation of JSON Web Token 
+p   python3-kajiki                  - Really fast well-formed xml templates - Py
+p   python3-kazoo                   - higher level API to Apache Zookeeper (Pyth
+p   python3-kdtree                  - container for kd-tree sorting for Python 3
+p   python3-kdtree:i386             - container for kd-tree sorting for Python 3
+p   python3-kdtree-dbg              - container for kd-tree sorting for Python 3
+p   python3-kdtree-dbg:i386         - container for kd-tree sorting for Python 3
+p   python3-kerberos                - GSSAPI interface module - Python 3.x      
+p   python3-kerberos:i386           - GSSAPI interface module - Python 3.x      
+p   python3-keyring                 - store and access your passwords safely - P
+i   python3-kivy                    - Kivy - Multimedia / Multitouch framework i
+p   python3-kivy:i386               - Kivy - Multimedia / Multitouch framework i
+p   python3-kombu                   - AMQP Messaging Framework for Python       
+p   python3-kyotocabinet            - Straightforward implementation of DBM - Py
+p   python3-kyotocabinet:i386       - Straightforward implementation of DBM - Py
+p   python3-kyotocabinet-dbg        - Straightforward implementation of DBM - Py
+p   python3-kyotocabinet-dbg:i386   - Straightforward implementation of DBM - Py
+p   python3-lazr.config             - ini-file format handling supporting schema
+p   python3-lazr.delegates          - easily write objects that delegate behavio
+p   python3-lazr.smtptest           - framework for testing SMTP-based applicati
+p   python3-lazr.uri                - library for parsing, manipulating, and gen
+p   python3-ldap3                   - Pure Python LDAP client library           
+p   python3-lepl                    - recursive descent parser library (Python 3
+p   python3-lesscpy                 - LessCss Compiler for Python 3.x           
+p   python3-leveldb                 - Python wrapper for LevelDB (Python 3)     
+p   python3-leveldb:i386            - Python wrapper for LevelDB (Python 3)     
+p   python3-levenshtein             - extension for computing string similaritie
+p   python3-levenshtein:i386        - extension for computing string similaritie
+p   python3-levenshtein-dbg         - extension for computing string similaritie
+p   python3-levenshtein-dbg:i386    - extension for computing string similaritie
+p   python3-libapparmor             - AppArmor library Python3 bindings         
+p   python3-libapparmor:i386        - AppArmor library Python3 bindings         
+p   python3-libcloud                - unified Python interface into the cloud (P
+p   python3-libdiscid               - libdiscid binding for Python 3            
+p   python3-libdiscid:i386          - libdiscid binding for Python 3            
+p   python3-libdiscid-dbg           - libdiscid binding for Python 3 (debug exte
+p   python3-libdiscid-dbg:i386      - libdiscid binding for Python 3 (debug exte
+p   python3-libguess                - high-speed character set detection library
+p   python3-liblo                   - Python (Python 3) bindings for liblo, the 
+p   python3-liblo:i386              - Python (Python 3) bindings for liblo, the 
+p   python3-libravatar              - Libravatar module for Python 3            
+p   python3-libtorrent              - Python bindings for libtorrent-rasterbar (
+p   python3-libtorrent:i386         - Python bindings for libtorrent-rasterbar (
+p   python3-libtorrent-dbg          - Python bindings for libtorrent-rasterbar (
+p   python3-libtorrent-dbg:i386     - Python bindings for libtorrent-rasterbar (
+p   python3-libvirt                 - libvirt Python 3 bindings                 
+p   python3-libvirt:i386            - libvirt Python 3 bindings                 
+p   python3-libxmp                  - Python3 library for XMP metadata          
+p   python3-linop                   - Linear mathematical operators in Python (P
+p   python3-linop:i386              - Linear mathematical operators in Python (P
+p   python3-livereload              - automatic browser refresher (Python 3)    
+p   python3-livestreamer            - library to extract video streams from vari
+p   python3-llfuse                  - Python 3 bindings for the low-level FUSE A
+p   python3-llfuse:i386             - Python 3 bindings for the low-level FUSE A
+p   python3-llfuse-dbg              - Python 3 bindings for the low-level FUSE A
+p   python3-llfuse-dbg:i386         - Python 3 bindings for the low-level FUSE A
+p   python3-lmfit                   - Least-Squares Minimization with Constraint
+p   python3-logbook                 - logging system for Python that replaces th
+p   python3-logging-tree            - introspect and display the logging tree in
+p   python3-logilab-astng           - rebuild a new abstract syntax tree (AST) f
+p   python3-logilab-common          - useful miscellaneous modules used by Logil
+p   python3-logutils                - handlers for the Python standard library's
+p   python3-louis                   - Python bindings for liblouis              
+p   python3-lxml                    - pythonic binding for the libxml2 and libxs
+p   python3-lxml:i386               - pythonic binding for the libxml2 and libxs
+p   python3-lxml-dbg                - pythonic binding for the libxml2 and libxs
+p   python3-lxml-dbg:i386           - pythonic binding for the libxml2 and libxs
+p   python3-magcode-core            - MAG Code python3 core module of common uti
+p   python3-magcode-core:i386       - MAG Code python3 core module of common uti
+p   python3-magic                   - File type determination library using "mag
+p   python3-mako                    - fast and lightweight templating for the Py
+p   python3-marisa                  - Python3 bindings for MARISA               
+p   python3-marisa:i386             - Python3 bindings for MARISA               
+p   python3-markdown                - text-to-HTML conversion library/tool (impl
+p   python3-markups                 - Wrapper around various text markups, imple
+p   python3-markupsafe              - HTML/XHTML/XML string library for Python 3
+p   python3-markupsafe:i386         - HTML/XHTML/XML string library for Python 3
+p   python3-markupsafe-dbg          - HTML/XHTML/XML string library for Python 3
+p   python3-markupsafe-dbg:i386     - HTML/XHTML/XML string library for Python 3
+p   python3-matplotlib              - Python based plotting system in a style si
+p   python3-matplotlib:i386         - Python based plotting system in a style si
+p   python3-matplotlib-dbg          - Python based plotting system (debug extens
+p   python3-matplotlib-dbg:i386     - Python based plotting system (debug extens
+p   python3-mccabe                  - Python code complexity checker (Python 3) 
+p   python3-mdp                     - Modular toolkit for Data Processing       
+p   python3-mediainfodll            - library for reading metadata from media fi
+p   python3-memcache                - pure python memcached client - Python 3.x 
+p   python3-memprof                 - memory profiler for Python (Python 3)     
+p   python3-memprof:i386            - memory profiler for Python (Python 3)     
+p   python3-metaconfig              - Python ConfigParser bootstrapping library 
+p   python3-mia                     - Python-3 bindings for the MIA image proces
+p   python3-mia:i386                - Python-3 bindings for the MIA image proces
+p   python3-mia-dbg                 - Debug information for Python-3 bindings fo
+p   python3-mia-dbg:i386            - Debug information for Python-3 bindings fo
+p   python3-mimeparse               - Parse mime-types and quality parameters - 
+i A python3-minimal                 - minimal subset of the Python language (def
+p   python3-minimal:i386            - minimal subset of the Python language (def
+v   python3-minimal:any             -                                           
+v   python3-minimal:any:i386        -                                           
+p   python3-misaka                  - binding for Sundown, a markdown parsing li
+p   python3-misaka:i386             - binding for Sundown, a markdown parsing li
+p   python3-mock                    - Mocking and Testing Library (Python3 versi
+p   python3-mockito                 - spying (testing) framework - Python 3.x   
+p   python3-mockldap                - simple mock implementation of python-ldap 
+p   python3-morse-simulator         - Multi-OpenRobot Simulation Engine         
+p   python3-morse-simulator:i386    - Multi-OpenRobot Simulation Engine         
+p   python3-mosquitto               - MQTT version 3.1 Python 3 client library  
+p   python3-mox3                    - Mock object framework - Python 3.x        
+p   python3-mpi4py                  - bindings of the Message Passing Interface 
+p   python3-mpi4py:i386             - bindings of the Message Passing Interface 
+p   python3-mpi4py-dbg              - bindings of the MPI standard -- debug symb
+p   python3-mpi4py-dbg:i386         - bindings of the MPI standard -- debug symb
+p   python3-mpld3                   - D3 viewer for matplotlib                  
+p   python3-mplexporter             - general matplotlib exporter               
+p   python3-mpmath                  - library for arbitrary-precision floating-p
+p   python3-msgpack                 - Python 3 implementation of MessagePack for
+p   python3-msgpack:i386            - Python 3 implementation of MessagePack for
+p   python3-multicorn               - multicorn utility module for postgresql-X.
+p   python3-multicorn:i386          - multicorn utility module for postgresql-X.
+p   python3-multipletau             - multiple-tau algorithm for Python/NumPy   
+p   python3-munkres                 - munkres algorithm for the Assignment Probl
+p   python3-musicbrainzngs          - Python 3 bindings for the Musicbrainz NGS 
+p   python3-musicpd                 - Python MPD client library                 
+p   python3-mutagen                 - audio metadata editing library (Python 3) 
+p   python3-mysql.connector         - pure Python implementation of MySQL Client
+p   python3-nagiosplugin            - Python class library for writing Nagios (I
+p   python3-natsort                 - Natural sorting for python (Python3)      
+p   python3-nbxmpp                  - Non blocking Jabber/XMPP Python 3 library 
+p   python3-netaddr                 - manipulation of various common network add
+p   python3-netifaces               - portable network interface information - P
+p   python3-netifaces:i386          - portable network interface information - P
+p   python3-netifaces-dbg           - portable network interface information - P
+p   python3-netifaces-dbg:i386      - portable network interface information - P
+p   python3-networkx                - tool to create, manipulate and study compl
+p   python3-newt                    - NEWT module for Python3                   
+p   python3-newt:i386               - NEWT module for Python3                   
+p   python3-newt-dbg                - NEWT module for Python3 (debug extension) 
+p   python3-newt-dbg:i386           - NEWT module for Python3 (debug extension) 
+p   python3-nine                    - Python 2 / 3 compatibility, like six, but 
+p   python3-nltk                    - Python3 libraries for natural language pro
+p   python3-nmap                    - Python3 interface to the Nmap port scanner
+p   python3-nose                    - test discovery and running for Python3 uni
+p   python3-nose-exclude            - exclude specific directories from nosetest
+p   python3-nose2                   - next generation of nicer testing for Pytho
+p   python3-nose2-cov               - nose2 plugin for coverage reporting       
+p   python3-notify2                 - desktop notifications API for Python 3    
+p   python3-notmuch                 - Python 3 interface to the notmuch mail sea
+p   python3-numexpr                 - Fast numerical array expression evaluator 
+p   python3-numexpr:i386            - Fast numerical array expression evaluator 
+p   python3-numexpr-dbg             - Fast numerical array expression evaluator 
+p   python3-numexpr-dbg:i386        - Fast numerical array expression evaluator 
+i   python3-numpy                   - Fast array facility to the Python 3 langua
+p   python3-numpy:i386              - Fast array facility to the Python 3 langua
+v   python3-numpy-abi9              -                                           
+v   python3-numpy-abi9:i386         -                                           
+v   python3-numpy-api9              -                                           
+v   python3-numpy-api9:i386         -                                           
+p   python3-numpy-dbg               - Fast array facility to the Python 3 langua
+p   python3-numpy-dbg:i386          - Fast array facility to the Python 3 langua
+v   python3-numpy-dev               -                                           
+v   python3-numpy-dev:i386          -                                           
+p   python3-nwdiag                  - generate network-diagram image file for Py
+p   python3-oauth                   - Python 3 library implementing of the OAuth
+p   python3-oauth2client            - OAuth 2.0 client library - Python 3.x     
+p   python3-oauthlib                - generic, spec-compliant implementation of 
+p   python3-objgraph                - Module for exploring Python object referen
+p   python3-ofxparse                - parser for Open Financial Exchange (.ofx) 
+p   python3-opengl                  - Python bindings to OpenGL (Python 3)      
+p   python3-openid                  - Python3 OpenID package for modern servers 
+p   python3-openslide               - Python 3 wrapper for reading whole slide i
+p   python3-openssl                 - Python 3 wrapper around the OpenSSL librar
+p   python3-openstack.nose-plugin   - nosetests output to mimic the output of op
+p   python3-oslo.config             - Common code for Openstack Projects (config
+p   python3-oslo.i18n               - Oslo Internationalization Utilities - Pyth
+p   python3-oslo.rootwrap           - allows fine filtering of shell commands to
+p   python3-oslo.utils              - set of utility functions for OpenStack - P
+p   python3-oslotest                - OpenStack test framework - Python 3.x     
+p   python3-osprofiler              - OpenStack Profiler Library - Python 3.x   
+p   python3-pandas                  - data structures for "relational" or "label
+p   python3-pandas-lib              - low-level implementations and bindings for
+p   python3-pandas-lib:i386         - low-level implementations and bindings for
+p   python3-pandocfilters           - python3 bindings for Pandoc's filters     
+p   python3-paramiko                - Make ssh v2 connections with Python (Pytho
+p   python3-parted                  - Python 3 interface for libparted          
+p   python3-parted:i386             - Python 3 interface for libparted          
+p   python3-parted-dbg              - Python 3 interface for libparted - Debuggi
+p   python3-parted-dbg:i386         - Python 3 interface for libparted - Debuggi
+p   python3-paste                   - tools for using a Web Server Gateway Inter
+p   python3-pastedeploy             - load, configure, and compose WSGI applicat
+p   python3-patsy                   - statistical models in Python using symboli
+p   python3-pbkdf2                  - Python RSA PKCS#5 v2.0 module (Python 3)  
+p   python3-pbr                     - inject useful and sensible default behavio
+p   python3-pecan                   - WSGI object-dispatching web framework - Py
+p   python3-pep8                    - Python PEP 8 code style checker - python3 
+p   python3-persistent              - Automatic persistence for Python objects  
+p   python3-persistent:i386         - Automatic persistence for Python objects  
+p   python3-pexpect                 - Python 3 module for automating interactive
+p   python3-pgpdump                 - PGP packet parser library (Python 3)      
+p   python3-pil                     - Python Imaging Library (Python3)          
+p   python3-pil:i386                - Python Imaging Library (Python3)          
+p   python3-pil-dbg                 - Python Imaging Library (Python3 debug exte
+p   python3-pil-dbg:i386            - Python Imaging Library (Python3 debug exte
+p   python3-pil.imagetk             - Python Imaging Library - ImageTk Module (P
+p   python3-pil.imagetk:i386        - Python Imaging Library - ImageTk Module (P
+p   python3-pil.imagetk-dbg         - Python Imaging Library - ImageTk Module (P
+p   python3-pil.imagetk-dbg:i386    - Python Imaging Library - ImageTk Module (P
+v   python3-pillow                  -                                           
+v   python3-pillow:i386             -                                           
+p   python3-pint                    - define, operate and manipulate physical qu
+p   python3-pip                     - alternative Python package installer - Pyt
+p   python3-pkg-resources           - Package Discovery and Resource Access usin
+p   python3-pkgconfig               - Python 3 interface to the pkg-config comma
+p   python3-pkginfo                 - Python 3.x module to query metadata from p
+p   python3-plainbox                - toolkit for software and hardware testing 
+p   python3-plainbox-doc            - toolkit for software and hardware testing 
+p   python3-plotly                  - Python 3 plotting library for publication-
+p   python3-plumbum                 - library for writing shell script-like prog
+p   python3-ply                     - Lex and Yacc implementation for Python3   
+v   python3-ply-lex-3.2             -                                           
+v   python3-ply-yacc-3.2            -                                           
+p   python3-polib                   - Python 3 library to parse and manage gette
+p   python3-portalocker             - easy API to file locking (Python 3)       
+p   python3-posix-ipc               - semaphores, shared memory and message queu
+p   python3-posix-ipc:i386          - semaphores, shared memory and message queu
+p   python3-postgresql              - pgsql driver, cluster management tools, an
+p   python3-postgresql:i386         - pgsql driver, cluster management tools, an
+p   python3-potr                    - Pure Python implementation of the OTR prot
+p   python3-power                   - Python module to get get power and battery
+p   python3-pretend                 - Python library for stubbing (Python 3)    
+p   python3-prettytable             - library to represent tabular data in visua
+p   python3-proboscis               - extends Nose with certain TestNG like feat
+v   python3-profiler                -                                           
+v   python3-profiler:i386           -                                           
+p   python3-progressbar             - text progress bar library for Python (Pyth
+p   python3-protorpc-standalone     - Google Protocol RPC - Python 3.x          
+p   python3-psutil                  - module providing convenience functions for
+p   python3-psutil:i386             - module providing convenience functions for
+p   python3-psycopg2                - Python 3 module for PostgreSQL            
+p   python3-psycopg2:i386           - Python 3 module for PostgreSQL            
+p   python3-psycopg2-dbg            - Python 3 module for PostgreSQL (debug exte
+p   python3-psycopg2-dbg:i386       - Python 3 module for PostgreSQL (debug exte
+p   python3-pudb                    - full-screen, console-based Python3 debugge
+p   python3-py                      - Advanced Python development support librar
+p   python3-pyasn1                  - ASN.1 library for Python (Python 3 module)
+p   python3-pyasn1-modules          - Collection of protocols modules written in
+p   python3-pyatspi                 - Assistive Technology Service Provider Inte
+p   python3-pyatspi2                - Transitional package for assistive technol
+p   python3-pyaudio                 - Python3 bindings for PortAudio v19        
+p   python3-pyaudio:i386            - Python3 bindings for PortAudio v19        
+p   python3-pyavm                   - Python3 module to handle Astronomy Visuali
+p   python3-pycangjie               - Python wrapper to libcangjie              
+p   python3-pycangjie:i386          - Python wrapper to libcangjie              
+p   python3-pyclamd                 - Python 3 interface to the ClamAV daemon   
+p   python3-pycountry               - ISO databases accessible from Python 3    
+p   python3-pycparser               - C parser in Python 3                      
+p   python3-pycurl                  - Python bindings to libcurl (Python 3)     
+p   python3-pycurl:i386             - Python bindings to libcurl (Python 3)     
+p   python3-pycurl-dbg              - Python bindings to libcurl (debug extensio
+p   python3-pycurl-dbg:i386         - Python bindings to libcurl (debug extensio
+p   python3-pydot                   - Python interface to Graphviz's dot (Python
+p   python3-pyelliptic              - High level Python wrapper for OpenSSL (Pyt
+p   python3-pyfftw                  - Pythonic wrapper around FFTW - Python 3   
+p   python3-pyfftw:i386             - Pythonic wrapper around FFTW - Python 3   
+p   python3-pyfftw-dbg              - Pythonic wrapper around FFTW - Python 3 (d
+p   python3-pyfftw-dbg:i386         - Pythonic wrapper around FFTW - Python 3 (d
+p   python3-pyfiglet                - Python 3 port of the FIGlet specification 
+p   python3-pyfits                  - Python3 module for reading, writing, and m
+p   python3-pyfits:i386             - Python3 module for reading, writing, and m
+p   python3-pygments                - syntax highlighting package written in Pyt
+p   python3-pygraph                 - library for working with graphs in Python 
+p   python3-pyinotify               - simple Linux inotify Python bindings      
+p   python3-pykcs11                 - PKCS#11 wrapper for Python                
+p   python3-pykcs11:i386            - PKCS#11 wrapper for Python                
+p   python3-pykde4                  - Python 3 bindings for the KDE Development 
+p   python3-pykde4:i386             - Python 3 bindings for the KDE Development 
+p   python3-pykde4-dbg              - debugging symbols for PyKDE bindings for P
+p   python3-pykde4-dbg:i386         - debugging symbols for PyKDE bindings for P
+p   python3-pykka                   - Actor model library for Python (Python 3) 
+p   python3-pylast                  - Python 3 interface to Last.fm and other co
+p   python3-pyld                    - implementation of the JSON-LD API         
+p   python3-pylibacl                - module for manipulating POSIX.1e ACLs (Pyt
+p   python3-pylibacl:i386           - module for manipulating POSIX.1e ACLs (Pyt
+p   python3-pylibacl-dbg            - module for manipulating POSIX.1e ACLs (Pyt
+p   python3-pylibacl-dbg:i386       - module for manipulating POSIX.1e ACLs (Pyt
+p   python3-pymemcache              - comprehensive, fast, pure Python memcached
+p   python3-pymongo                 - Python3 interface to the MongoDB document-
+p   python3-pymongo:i386            - Python3 interface to the MongoDB document-
+p   python3-pymongo-ext             - C-coded extension to the python3-pymongo p
+p   python3-pymongo-ext:i386        - C-coded extension to the python3-pymongo p
+p   python3-pyopencl                - Python 3 module to access OpenCL parallel 
+p   python3-pyopencl:i386           - Python 3 module to access OpenCL parallel 
+p   python3-pyopencl-dbg            - Python 3 module to access OpenCL API (debu
+p   python3-pyopencl-dbg:i386       - Python 3 module to access OpenCL API (debu
+p   python3-pyparsing               - Python parsing module, Python3 package    
+p   python3-pypdf2                  - Pure-Python library built as a PDF toolkit
+p   python3-pyproj                  - Python 3 interface to PROJ.4 library      
+p   python3-pyproj:i386             - Python 3 interface to PROJ.4 library      
+p   python3-pyqt4                   - Python3 bindings for Qt4                  
+p   python3-pyqt4:i386              - Python3 bindings for Qt4                  
+p   python3-pyqt4-dbg               - Python3 bindings for Qt4 (debug extensions
+p   python3-pyqt4-dbg:i386          - Python3 bindings for Qt4 (debug extensions
+p   python3-pyqt4.phonon            - Python3 bindings for Phonon               
+p   python3-pyqt4.phonon:i386       - Python3 bindings for Phonon               
+p   python3-pyqt4.phonon-dbg        - Python3 bindings for Phonon (debug extensi
+p   python3-pyqt4.phonon-dbg:i386   - Python3 bindings for Phonon (debug extensi
+p   python3-pyqt4.qsci              - Python 3 bindings for QScintilla 2 with Qt
+p   python3-pyqt4.qsci:i386         - Python 3 bindings for QScintilla 2 with Qt
+p   python3-pyqt4.qsci-dbg          - Python 3 bindings for QScintilla 2 (Qt 4 d
+p   python3-pyqt4.qsci-dbg:i386     - Python 3 bindings for QScintilla 2 (Qt 4 d
+p   python3-pyqt4.qtopengl          - Python 3 bindings for Qt4's OpenGL module 
+p   python3-pyqt4.qtopengl:i386     - Python 3 bindings for Qt4's OpenGL module 
+p   python3-pyqt4.qtopengl-dbg      - Python 3 bindings for Qt4's OpenGL module 
+p   python3-pyqt4.qtopengl-dbg:i386 - Python 3 bindings for Qt4's OpenGL module 
+p   python3-pyqt4.qtsql             - Python3 bindings for PyQt4's SQL module   
+p   python3-pyqt4.qtsql:i386        - Python3 bindings for PyQt4's SQL module   
+p   python3-pyqt4.qtsql-dbg         - Python3 bindings for PyQt4's SQL module (d
+p   python3-pyqt4.qtsql-dbg:i386    - Python3 bindings for PyQt4's SQL module (d
+p   python3-pyqt5                   - Python 3 bindings for Qt5                 
+p   python3-pyqt5:i386              - Python 3 bindings for Qt5                 
+p   python3-pyqt5-dbg               - Python 3 bindings for Qt5 (debug extension
+p   python3-pyqt5-dbg:i386          - Python 3 bindings for Qt5 (debug extension
+p   python3-pyqt5.enginio           - Python 3 bindings for Enginio library     
+p   python3-pyqt5.enginio:i386      - Python 3 bindings for Enginio library     
+p   python3-pyqt5.enginio-dbg       - Python 3 bindings for Enginio library (deb
+p   python3-pyqt5.enginio-dbg:i386  - Python 3 bindings for Enginio library (deb
+p   python3-pyqt5.qsci              - Python 3 bindings for QScintilla 2 with Qt
+p   python3-pyqt5.qsci:i386         - Python 3 bindings for QScintilla 2 with Qt
+p   python3-pyqt5.qsci-dbg          - Python 3 bindings for QScintilla 2 (Qt 5 d
+p   python3-pyqt5.qsci-dbg:i386     - Python 3 bindings for QScintilla 2 (Qt 5 d
+p   python3-pyqt5.qtmultimedia      - Python 3 bindings for Qt5's Multimedia mod
+p   python3-pyqt5.qtmultimedia:i386 - Python 3 bindings for Qt5's Multimedia mod
+p   python3-pyqt5.qtmultimedia-dbg  - Python 3 bindings for Qt5's Multimedia mod
+p   python3-pyqt5.qtmultimedia-dbg: - Python 3 bindings for Qt5's Multimedia mod
+p   python3-pyqt5.qtopengl          - Python 3 bindings for Qt5's OpenGL module 
+p   python3-pyqt5.qtopengl:i386     - Python 3 bindings for Qt5's OpenGL module 
+p   python3-pyqt5.qtopengl-dbg      - Python 3 bindings for Qt5's OpenGL module 
+p   python3-pyqt5.qtopengl-dbg:i386 - Python 3 bindings for Qt5's OpenGL module 
+p   python3-pyqt5.qtpositioning     - Python 3 bindings for QtPositioning module
+p   python3-pyqt5.qtpositioning:i38 - Python 3 bindings for QtPositioning module
+p   python3-pyqt5.qtpositioning-dbg - Python 3 bindings for QtPositioning module
+p   python3-pyqt5.qtpositioning-dbg - Python 3 bindings for QtPositioning module
+p   python3-pyqt5.qtquick           - Python 3 bindings for QtQuick module      
+p   python3-pyqt5.qtquick:i386      - Python 3 bindings for QtQuick module      
+p   python3-pyqt5.qtquick-dbg       - Python 3 bindings for QtQuick module (debu
+p   python3-pyqt5.qtquick-dbg:i386  - Python 3 bindings for QtQuick module (debu
+p   python3-pyqt5.qtsensors         - Python 3 bindings for QtSensors module    
+p   python3-pyqt5.qtsensors:i386    - Python 3 bindings for QtSensors module    
+p   python3-pyqt5.qtsensors-dbg     - Python 3 bindings for QtSensors module (de
+p   python3-pyqt5.qtsensors-dbg:i38 - Python 3 bindings for QtSensors module (de
+p   python3-pyqt5.qtserialport      - Python 3 bindings for QtSerialPort module 
+p   python3-pyqt5.qtserialport:i386 - Python 3 bindings for QtSerialPort module 
+p   python3-pyqt5.qtserialport-dbg  - Python 3 bindings for QtSerialPort module 
+p   python3-pyqt5.qtserialport-dbg: - Python 3 bindings for QtSerialPort module 
+p   python3-pyqt5.qtsql             - Python 3 bindings for Qt5's SQL module    
+p   python3-pyqt5.qtsql:i386        - Python 3 bindings for Qt5's SQL module    
+p   python3-pyqt5.qtsql-dbg         - Python 3 bindings for Qt5's SQL module (de
+p   python3-pyqt5.qtsql-dbg:i386    - Python 3 bindings for Qt5's SQL module (de
+p   python3-pyqt5.qtsvg             - Python 3 bindings for Qt5's SVG module    
+p   python3-pyqt5.qtsvg:i386        - Python 3 bindings for Qt5's SVG module    
+p   python3-pyqt5.qtsvg-dbg         - Python 3 bindings for Qt5's SVG module (de
+p   python3-pyqt5.qtsvg-dbg:i386    - Python 3 bindings for Qt5's SVG module (de
+p   python3-pyqt5.qtwebkit          - Python 3 bindings for Qt5's WebKit module 
+p   python3-pyqt5.qtwebkit:i386     - Python 3 bindings for Qt5's WebKit module 
+p   python3-pyqt5.qtwebkit-dbg      - Python 3 bindings for Qt5's WebKit module 
+p   python3-pyqt5.qtwebkit-dbg:i386 - Python 3 bindings for Qt5's WebKit module 
+p   python3-pyqt5.qtwebsockets      - Python 3 bindings for Qt5's WebSockets mod
+p   python3-pyqt5.qtwebsockets:i386 - Python 3 bindings for Qt5's WebSockets mod
+p   python3-pyqt5.qtwebsockets-dbg  - Python 3 bindings for Qt5's WebSockets mod
+p   python3-pyqt5.qtwebsockets-dbg: - Python 3 bindings for Qt5's WebSockets mod
+p   python3-pyqt5.qtx11extras       - Python 3 bindings for QtX11Extras module  
+p   python3-pyqt5.qtx11extras:i386  - Python 3 bindings for QtX11Extras module  
+p   python3-pyqt5.qtx11extras-dbg   - Python 3 bindings for QtX11Extras module (
+p   python3-pyqt5.qtx11extras-dbg:i - Python 3 bindings for QtX11Extras module (
+p   python3-pyqt5.qtxmlpatterns     - Python 3 bindings for Qt5's XmlPatterns mo
+p   python3-pyqt5.qtxmlpatterns:i38 - Python 3 bindings for Qt5's XmlPatterns mo
+p   python3-pyqt5.qtxmlpatterns-dbg - Python 3 bindings for Qt5's XmlPatterns mo
+p   python3-pyqt5.qtxmlpatterns-dbg - Python 3 bindings for Qt5's XmlPatterns mo
+p   python3-pyqtgraph               - Scientific Graphics and GUI Library for Py
+p   python3-pyramid                 - Pyramid web application framework, a Pylon
+p   python3-pyro4                   - distributed object middleware for Python (
+p   python3-pyrss2gen               - interface for generating RSS 2.0 feeds for
+p   python3-pyscss                  - SCSS compiler - Python 3.x                
+p   python3-pyscss:i386             - SCSS compiler - Python 3.x                
+p   python3-pyshp                   - read/write support for ESRI Shapefile form
+p   python3-pyside                  - Python3 bindings for Qt4 (big metapackage)
+p   python3-pyside.phonon           - Qt 4 Phonon module - Python3 bindings     
+p   python3-pyside.phonon:i386      - Qt 4 Phonon module - Python3 bindings     
+p   python3-pyside.qtcore           - Qt 4 core module - Python3 bindings       
+p   python3-pyside.qtcore:i386      - Qt 4 core module - Python3 bindings       
+p   python3-pyside.qtdeclarative    - Qt 4 Declarative module - Python3 bindings
+p   python3-pyside.qtdeclarative:i3 - Qt 4 Declarative module - Python3 bindings
+p   python3-pyside.qtgui            - Qt 4 GUI module - Python3 bindings        
+p   python3-pyside.qtgui:i386       - Qt 4 GUI module - Python3 bindings        
+p   python3-pyside.qthelp           - Qt 4 help module - Python3 bindings       
+p   python3-pyside.qthelp:i386      - Qt 4 help module - Python3 bindings       
+p   python3-pyside.qtnetwork        - Qt 4 network module - Python3 bindings    
+p   python3-pyside.qtnetwork:i386   - Qt 4 network module - Python3 bindings    
+p   python3-pyside.qtopengl         - Qt 4 OpenGL module - Python3 bindings     
+p   python3-pyside.qtopengl:i386    - Qt 4 OpenGL module - Python3 bindings     
+p   python3-pyside.qtscript         - Qt 4 script module - Python3 bindings     
+p   python3-pyside.qtscript:i386    - Qt 4 script module - Python3 bindings     
+p   python3-pyside.qtsql            - Qt 4 SQL module - Python3 bindings        
+p   python3-pyside.qtsql:i386       - Qt 4 SQL module - Python3 bindings        
+p   python3-pyside.qtsvg            - Qt 4 SVG module - Python3 bindings        
+p   python3-pyside.qtsvg:i386       - Qt 4 SVG module - Python3 bindings        
+p   python3-pyside.qttest           - Qt 4 test module - Python3 bindings       
+p   python3-pyside.qttest:i386      - Qt 4 test module - Python3 bindings       
+p   python3-pyside.qtuitools        - Qt 4 UI tools module - Python3 bindings   
+p   python3-pyside.qtuitools:i386   - Qt 4 UI tools module - Python3 bindings   
+p   python3-pyside.qtwebkit         - Qt 4 WebKit module - Python3 bindings     
+p   python3-pyside.qtwebkit:i386    - Qt 4 WebKit module - Python3 bindings     
+p   python3-pyside.qtxml            - Qt 4 XML module - Python3 bindings        
+p   python3-pyside.qtxml:i386       - Qt 4 XML module - Python3 bindings        
+p   python3-pysnmp4                 - Python SNMP library for agents and manager
+p   python3-pysocks                 - socket-like interface for tunneling throug
+p   python3-pysolar                 - Python library for precise ephemeris calcu
+p   python3-pysrt                   - library to edit or create SubRip files (Py
+p   python3-pystache                - Python3 implementation of Mustache        
+p   python3-pytango                 - API for the TANGO control system (Python 3
+p   python3-pytango:i386            - API for the TANGO control system (Python 3
+p   python3-pyte                    - simple VTXXX-compatible terminal emulator 
+p   python3-pytest                  - Simple, powerful testing in Python3       
+p   python3-pytest-cov              - py.test plugin to produce coverage reports
+p   python3-pytest-instafail        - plugin for py.test that shows failures and
+p   python3-pytils                  - Python library for processing strings in R
+p   python3-pytools                 - big bag of things supplementing Python 3 s
+p   python3-pyudev                  - Python3 bindings for libudev              
+p   python3-pyviennacl              - Python bindings for ViennaCL linear algebr
+p   python3-pyviennacl:i386         - Python bindings for ViennaCL linear algebr
+p   python3-pyvmomi                 - VMware vSphere Python SDK - Python 3.x    
+p   python3-pywapi                  - Python wrapper around different weather AP
+p   python3-pyx                     - Python 3 module for generating PostScript 
+p   python3-pyx:i386                - Python 3 module for generating PostScript 
+p   python3-pyx-doc                 - Python 3 module for generating PostScript 
+p   python3-pyxattr                 - module for manipulating filesystem extende
+p   python3-pyxattr:i386            - module for manipulating filesystem extende
+p   python3-pyxattr-dbg             - module for manipulating filesystem extende
+p   python3-pyxattr-dbg:i386        - module for manipulating filesystem extende
+p   python3-queuelib                - collection of persistent (disk-based) queu
+p   python3-rarfile                 - RAR archive reader module for Python (pyth
+p   python3-rdflib                  - Python 3 library containing an RDF triple 
+p   python3-rdflib:i386             - Python 3 library containing an RDF triple 
+p   python3-redis                   - Persistent key-value database with network
+p   python3-rednose                 - coloured output for nosetests - Python 3.x
+p   python3-regex                   - alternative regular expression module (Pyt
+p   python3-regex:i386              - alternative regular expression module (Pyt
+p   python3-regex-dbg               - alternative regular expression module (Pyt
+p   python3-regex-dbg:i386          - alternative regular expression module (Pyt
+p   python3-releases                - Sphinx extension for changelog manipulatio
+p   python3-renderpm                - python low level render interface         
+p   python3-renderpm:i386           - python low level render interface         
+p   python3-renderpm-dbg            - python low level render interface (debug e
+p   python3-renderpm-dbg:i386       - python low level render interface (debug e
+p   python3-reportlab               - ReportLab library to create PDF documents 
+p   python3-reportlab-accel         - C coded extension accelerator for the Repo
+p   python3-reportlab-accel:i386    - C coded extension accelerator for the Repo
+p   python3-reportlab-accel-dbg     - C coded extension accelerator for the Repo
+p   python3-reportlab-accel-dbg:i38 - C coded extension accelerator for the Repo
+p   python3-repoze.lru              - tiny LRU cache implementation and decorato
+p   python3-repoze.tm2              - Zope-like transaction manager WSGI middlew
+p   python3-requests                - elegant and simple HTTP library for Python
+p   python3-requests-kerberos       - Kerberos/GSSAPI authentication handler for
+p   python3-requests-mock           - mock out responses from the requests packa
+p   python3-requests-oauthlib       - module providing OAuthlib auth support for
+p   python3-responses               - Utility library for mocking out the reques
+p   python3-retrying                - simplifies the task of adding retry behavi
+p   python3-rfc3986                 - validating URI references per RFC 3986 - P
+p   python3-roman                   - module for generating/analyzing Roman nume
+p   python3-routes                  - Routing Recognition and Generation Tools f
+p   python3-rply                    - pure Python based parser that also works w
+p   python3-rsa                     - Pure-Python RSA implementation (Python 3) 
+p   python3-rtslib-fb               - object API for managing the Linux LIO kern
+p   python3-sane                    - Python Imaging Library - SANE interface (P
+p   python3-sane:i386               - Python Imaging Library - SANE interface (P
+p   python3-sane-dbg                - Python Imaging Library - SANE interface (P
+p   python3-sane-dbg:i386           - Python Imaging Library - SANE interface (P
+p   python3-schroot                 - set of Python 3 bindings to schroot chroot
+p   python3-scipy                   - scientific tools for Python 3             
+p   python3-scipy:i386              - scientific tools for Python 3             
+p   python3-scipy-dbg               - scientific tools for Python 3 - debugging 
+p   python3-scipy-dbg:i386          - scientific tools for Python 3 - debugging 
+p   python3-scripttest              - Helper to test command-line scripts - pyth
+p   python3-seaborn                 - statistical visualization library         
+p   python3-secretstorage           - Python module for storing secrets - Python
+p   python3-semver                  - helps to compare semantic versioning - Pyt
+p   python3-seqdiag                 - seqdiag generate sequence-diagram image fi
+p   python3-serial                  - pyserial - module encapsulating access for
+p   python3-service-identity        - Service identity verification for pyOpenSS
+p   python3-setproctitle            - A setproctitle implementation for Python (
+p   python3-setproctitle:i386       - A setproctitle implementation for Python (
+p   python3-setproctitle-dbg        - A setproctitle implementation for Python (
+p   python3-setproctitle-dbg:i386   - A setproctitle implementation for Python (
+p   python3-setuptools              - Python3 Distutils Enhancements            
+p   python3-setuptools-git          - plugin for setuptools that enables git int
+p   python3-sfml                    - Simple and Fast Multimedia Library - Pytho
+p   python3-sfml:i386               - Simple and Fast Multimedia Library - Pytho
+p   python3-sfml-dbg                - Simple and Fast Multimedia Library - Pytho
+p   python3-sfml-dbg:i386           - Simple and Fast Multimedia Library - Pytho
+p   python3-sh                      - Python 3 subprocess interface             
+p   python3-shapely                 - geometric objects, predicates, and operati
+p   python3-shapely:i386            - geometric objects, predicates, and operati
+p   python3-shortuuid               - generates concise, unambiguous, URL-safe U
+p   python3-simplegeneric           - simple generic functions for Python3      
+p   python3-simplejson              - JSON encoder and decoder for Python 3     
+p   python3-simplejson:i386         - JSON encoder and decoder for Python 3     
+p   python3-simplejson-dbg          - JSON encoder and decoder for python3-dbg  
+p   python3-simplejson-dbg:i386     - JSON encoder and decoder for python3-dbg  
+p   python3-simpy                   - python-based simulation package (Python3 v
+p   python3-singledispatch          - single-dispatch generic functions for Pyth
+p   python3-sip                     - Python 3/C++ bindings generator runtime li
+p   python3-sip:i386                - Python 3/C++ bindings generator runtime li
+p   python3-sip-dbg                 - Python 3/C++ bindings generator runtime li
+p   python3-sip-dbg:i386            - Python 3/C++ bindings generator runtime li
+p   python3-sip-dev                 - Python 3/C++ bindings generator developmen
+p   python3-sip-dev:i386            - Python 3/C++ bindings generator developmen
+p   python3-sireader                - Python module to communicate with SportIde
+p   python3-six                     - Python 2 and 3 compatibility library (Pyth
+v   python3-six:i386                -                                           
+p   python3-skimage                 - Python 3 modules for image processing     
+p   python3-skimage-lib             - Optimized low-level algorithms for Python 
+p   python3-skimage-lib:i386        - Optimized low-level algorithms for Python 
+p   python3-sleekxmpp               - Python XMPP (Jabber) Library Implementing 
+p   python3-slimmer                 - HTML, XHTML, CSS, JavaScript optimizer for
+p   python3-smartypants             - smart-quotes plugin for pyblosxom (Python 
+p   python3-smstrade                - Python library to send SMS via the smstrad
+p   python3-social-auth             - Python social authentication made simple  
+p   python3-sockjs-tornado          - server side counterpart of SockJS-client b
+p   python3-socksipy                - Python 3 SOCKS client module              
+p   python3-softlayer               - Python client for SoftLayer API (Python 3)
+p   python3-software-properties     - manage the repositories that you install s
+p   python3-solv                    - dependency solver using a satisfiability a
+p   python3-solv:i386               - dependency solver using a satisfiability a
+p   python3-sortedm2m               - Replacement for Django's many to many fiel
+p   python3-sparqlwrapper           - SPARQL endpoint interface to Python (Pytho
+p   python3-speechd                 - Python interface to Speech Dispatcher     
+p   python3-spf                     - sender policy framework (SPF) module for P
+p   python3-sphere                  - Python3 interface to the spherepack scient
+p   python3-sphere:i386             - Python3 interface to the spherepack scient
+p   python3-sphinx                  - documentation generator for Python project
+p   python3-sphinx-paramlinks       - Sphinx extension to make param links linka
+p   python3-sphinx-rtd-theme        - sphinx theme from readthedocs.org (Python 
+p   python3-sphinxcontrib.actdiag   - Sphinx "actdiag" extension for Python3    
+p   python3-sphinxcontrib.blockdiag - Sphinx "blockdiag" extension for Python 3 
+p   python3-sphinxcontrib.httpdomai - Sphinx domain for HTTP APIs - Python 3.x  
+p   python3-sphinxcontrib.nwdiag    - Sphinx "nwdiag" extension for Python 3    
+p   python3-sphinxcontrib.programou - insert the output of arbitrary commands in
+p   python3-sphinxcontrib.seqdiag   - Sphinx "seqdiag" extension for Python3    
+p   python3-sphinxcontrib.spelling  - Sphinx "spelling" extension (Python 3)    
+p   python3-sphinxcontrib.youtube   - Sphinx "YouTube" extension                
+p   python3-spyderlib               - Python IDE for scientists (Python 3 module
+p   python3-sql                     - Library to write SQL queries (implemented 
+p   python3-sqlalchemy              - SQL toolkit and Object Relational Mapper f
+p   python3-sqlalchemy-ext          - SQL toolkit and Object Relational Mapper f
+p   python3-sqlalchemy-ext:i386     - SQL toolkit and Object Relational Mapper f
+p   python3-sqlparse                - non-validating SQL parser for Python 3    
+p   python3-srp                     - Secure Remote Password protocol implementa
+p   python3-srp:i386                - Secure Remote Password protocol implementa
+p   python3-ssdeep                  - Python 3.x wrapper for the ssdeep piecewis
+p   python3-ssdeep:i386             - Python 3.x wrapper for the ssdeep piecewis
+p   python3-stdeb                   - Python to Debian source package conversion
+p   python3-stdnum                  - Python module to handle standardized numbe
+p   python3-stem                    - Tor control library for Python 3 series   
+p   python3-stemmer                 - Python 3 bindings for libstemmer - snowbal
+p   python3-stemmer:i386            - Python 3 bindings for libstemmer - snowbal
+p   python3-stemmer-dbg             - Python 3 bindings for libstemmer (debug ex
+p   python3-stemmer-dbg:i386        - Python 3 bindings for libstemmer (debug ex
+p   python3-stevedore               - manage dynamic plugins for Python applicat
+p   python3-stsci.distutils         - Python3 packaging utilities for STScI's pa
+p   python3-subliminal              - Python library to search and download subt
+p   python3-subnettree              - Python3 Module for CIDR Lookups           
+p   python3-subnettree:i386         - Python3 Module for CIDR Lookups           
+p   python3-subunit                 - unit testing protocol - Python3 bindings t
+p   python3-sunlight                - set of bindings to access U.S. government 
+p   python3-sure                    - utility belt for automated testing - Pytho
+p   python3-svipc                   - interprocess communication (shared memory.
+p   python3-svipc:i386              - interprocess communication (shared memory.
+p   python3-swiftsc                 - simple client library of OpenStack Swift f
+p   python3-systemd                 - Python 3 bindings for systemd             
+p   python3-systemd:i386            - Python 3 bindings for systemd             
+p   python3-sysv-ipc                - semaphores, shared memory and message queu
+p   python3-sysv-ipc:i386           - semaphores, shared memory and message queu
+p   python3-tables                  - hierarchical database for Python3 based on
+p   python3-tables-dbg              - hierarchical database for Python 3 based o
+p   python3-tables-dbg:i386         - hierarchical database for Python 3 based o
+p   python3-tables-lib              - hierarchical database for Python3 based on
+p   python3-tables-lib:i386         - hierarchical database for Python3 based on
+p   python3-taglib                  - Python3 bindings for the TagLib audio meta
+p   python3-taglib:i386             - Python3 bindings for the TagLib audio meta
+p   python3-tblib                   - Python 3 traceback fiddling library       
+v   python3-tblib:i386              -                                           
+p   python3-tempita                 - very small text templating language       
+p   python3-termcolor               - ANSII Color formatting for output in termi
+p   python3-termstyle               - console colouring for python - Python 3.x 
+p   python3-testrepository          - Database of test results - Python 3.x libr
+p   python3-testresources           - PyUnit extension for managing expensive te
+p   python3-testscenarios           - Dependency injection for Python unittest t
+p   python3-testtools               - Extensions to the Python unittest library 
+i   python3-tk                      - Tkinter - Writing Tk applications with Pyt
+p   python3-tk:i386                 - Tkinter - Writing Tk applications with Pyt
+p   python3-tk-dbg                  - Tkinter - Writing Tk applications with Pyt
+p   python3-tk-dbg:i386             - Tkinter - Writing Tk applications with Pyt
+p   python3-tomahawk                - simple ssh wrapper for executing commands 
+p   python3-tooz                    - coordination library for distributed syste
+p   python3-toposort                - topological sort algorithm - Python 3 modu
+p   python3-tornadio2               - Socket.io 0.7+ server implementation on to
+p   python3-tornado                 - scalable, non-blocking web server and tool
+p   python3-tornado:i386            - scalable, non-blocking web server and tool
+p   python3-transaction             - Transaction management for Python         
+p   python3-translationstring       - Utility library for i18n relied on by vari
+p   python3-transmissionrpc         - Transmission RPC client module for Python 
+p   python3-trollius                - port of the Tulip project on Python 2.7 - 
+p   python3-twython                 - Pure Python3 wrapper for the Twitter API  
+p   python3-typogrify               - filters to transform text into typographic
+p   python3-tz                      - Python3 version of the Olson timezone data
+p   python3-uncertainties           - Python3 module for calculations with uncer
+p   python3-unidecode               - ASCII transliterations of Unicode text (Py
+p   python3-uno                     - Python-UNO bridge                         
+p   python3-uno:i386                - Python-UNO bridge                         
+p   python3-uritemplate             - implementation of RFC6570 - Python 3.x    
+p   python3-urllib3                 - HTTP library with thread-safe connection p
+p   python3-urlobject               - utility class for manipulating URLs.      
+p   python3-urwid                   - curses-based UI/widget library for Python 
+p   python3-urwid:i386              - curses-based UI/widget library for Python 
+p   python3-uwsgidecorators         - module of decorators for elegant access to
+p   python3-validictory             - general purpose Python data validator (Pyt
+p   python3-vatnumber               - Python module to validate VAT numbers (imp
+p   python3-vcversioner             - Use version control tags to discover versi
+p   python3-venusian                - library for deferring decorator actions   
+p   python3-venv                    - pyvenv-3 binary for python3 (default pytho
+p   python3-venv:i386               - pyvenv-3 binary for python3 (default pytho
+v   python3-venv:any                -                                           
+v   python3-venv:any:i386           -                                           
+p   python3-versiontools            - Smart replacement for plain tuple used in 
+p   python3-virtualenv              - Python virtual environment creator        
+p   python3-voluptuous              - Python 3 library to validate data         
+p   python3-w3lib                   - Collection of web-related functions for Py
+p   python3-wadllib                 - Python 3 library for navigating WADL files
+p   python3-waitress                - production-quality pure-Python WSGI server
+p   python3-wand                    - Python interface for ImageMagick library (
+p   python3-warlock                 - object model built on top of JSON schema -
+p   python3-webassets               - Asset management application for Python we
+p   python3-webcolors               - python3 library of color names and value f
+p   python3-webob                   - Python module providing WSGI request and r
+p   python3-websocket               - WebSocket client library for Python       
+p   python3-webtest                 - wraps any WSGI application and makes it ea
+p   python3-werkzeug                - collection of utilities for WSGI applicati
+p   python3-wheel                   - built-package format for Python           
+p   python3-whois                   - Python module for retrieving WHOIS informa
+p   python3-whoosh                  - pure-Python full-text indexing, search, an
+p   python3-wrapt                   - decorators, wrappers and monkey patching. 
+p   python3-wrapt:i386              - decorators, wrappers and monkey patching. 
+p   python3-ws4py                   - WebSocket library for Python (Python 3)   
+p   python3-wsgi-intercept          - installs a WSGI application in place of a 
+p   python3-wsme                    - Web Services Made Easy: implement multi-pr
+p   python3-xdg                     - Python 3 library to access freedesktop.org
+p   python3-xlrd                    - extract data from Microsoft Excel spreadsh
+p   python3-xlsxwriter              - Python 3 module for creating Excel XLSX fi
+p   python3-xtermcolor              - Python3 module to print coloured text on t
+p   python3-xvfbwrapper             - headless display inside Xvfb - Python 3.x 
+p   python3-yaml                    - YAML parser and emitter for Python3       
+p   python3-yaml:i386               - YAML parser and emitter for Python3       
+p   python3-yaml-dbg                - YAML parser and emitter for Python3 (debug
+p   python3-yaml-dbg:i386           - YAML parser and emitter for Python3 (debug
+p   python3-yapsy                   - simple plugin system for Python3 applicati
+p   python3-yaql                    - Yet Another Query Language - Python 3.x   
+p   python3-yara                    - help to identify and classify malwares (Py
+p   python3-yara:i386               - help to identify and classify malwares (Py
+p   python3-zake                    - provides a set of testing utilities for th
+p   python3-zeroc-ice               - Ice for Python libraries (Python 3)       
+p   python3-zeroc-ice:i386          - Ice for Python libraries (Python 3)       
+p   python3-zmq                     - Python3 bindings for 0MQ library          
+p   python3-zmq:i386                - Python3 bindings for 0MQ library          
+p   python3-zmq-dbg                 - Python3 bindings for 0MQ library - debuggi
+p   python3-zmq-dbg:i386            - Python3 bindings for 0MQ library - debuggi
+v   python3-zope                    -                                           
+v   python3-zope:i386               -                                           
+p   python3-zope.browser            - Shared Zope Toolkit browser components    
+p   python3-zope.component          - Zope Component Architecture               
+p   python3-zope.configuration      - Zope Configuration Markup Language (ZCML) 
+p   python3-zope.contenttype        - Utility module for content-type handling  
+p   python3-zope.deprecation        - Zope Deprecation Infrastructure           
+p   python3-zope.event              - Very basic event publishing system        
+p   python3-zope.exceptions         - Zope exceptions for Python 3              
+p   python3-zope.fixers             - Fixers for Zope3 and the frameworks built 
+p   python3-zope.hookable           - Hookable object support                   
+p   python3-zope.hookable:i386      - Hookable object support                   
+p   python3-zope.i18nmessageid      - Message Identifiers for internationalizati
+p   python3-zope.i18nmessageid:i386 - Message Identifiers for internationalizati
+p   python3-zope.interface          - Interfaces for Python3                    
+p   python3-zope.interface:i386     - Interfaces for Python3                    
+p   python3-zope.interface-dbg      - Interfaces for Python3 (debug extension)  
+p   python3-zope.interface-dbg:i386 - Interfaces for Python3 (debug extension)  
+p   python3-zope.location           - Tools for working with object locations   
+p   python3-zope.proxy              - Generic transparent proxies for Python    
+p   python3-zope.proxy:i386         - Generic transparent proxies for Python    
+p   python3-zope.schema             - zope.interface extension for defining data
+p   python3-zope.security           - Zope Security Framework                   
+p   python3-zope.security:i386      - Zope Security Framework                   
+p   python3-zope.testing            - Zope testing helpers for Python 3         
+p   python3-zope.testrunner         - Flexible test runner with layer support fo
+v   python3.3-setuptools            -                                           
+i   python3.4                       - Interactive high-level object-oriented lan
+p   python3.4:i386                  - Interactive high-level object-oriented lan
+v   python3.4-apt                   -                                           
+v   python3.4-apt:i386              -                                           
+v   python3.4-blist                 -                                           
+v   python3.4-blist:i386            -                                           
+v   python3.4-bsddb3                -                                           
+v   python3.4-bsddb3:i386           -                                           
+v   python3.4-bsddb3-dbg            -                                           
+v   python3.4-bsddb3-dbg:i386       -                                           
+v   python3.4-comedilib             -                                           
+v   python3.4-comedilib:i386        -                                           
+v   python3.4-cracklib              -                                           
+v   python3.4-cracklib:i386         -                                           
+v   python3.4-crypto                -                                           
+v   python3.4-crypto:i386           -                                           
+v   python3.4-crypto-dbg            -                                           
+v   python3.4-crypto-dbg:i386       -                                           
+p   python3.4-dbg                   - Debug Build of the Python Interpreter (ver
+p   python3.4-dbg:i386              - Debug Build of the Python Interpreter (ver
+v   python3.4-dbg:any               -                                           
+v   python3.4-dbg:any:i386          -                                           
+v   python3.4-dbus                  -                                           
+v   python3.4-dbus:i386             -                                           
+v   python3.4-deltarpm              -                                           
+v   python3.4-deltarpm:i386         -                                           
+i A python3.4-dev                   - Header files and a static library for Pyth
+p   python3.4-dev:i386              - Header files and a static library for Pyth
+v   python3.4-dev:any               -                                           
+v   python3.4-dev:any:i386          -                                           
+p   python3.4-doc                   - Documentation for the high-level object-or
+v   python3.4-epr                   -                                           
+v   python3.4-epr:i386              -                                           
+v   python3.4-epr-dbg               -                                           
+v   python3.4-epr-dbg:i386          -                                           
+p   python3.4-examples              - Examples for the Python language (v3.4)   
+v   python3.4-gdal                  -                                           
+v   python3.4-gdal:i386             -                                           
+v   python3.4-gdbm                  -                                           
+v   python3.4-gdbm:i386             -                                           
+v   python3.4-gearman.libgearman    -                                           
+v   python3.4-gearman.libgearman:i3 -                                           
+v   python3.4-gmpy2                 -                                           
+v   python3.4-gmpy2:i386            -                                           
+v   python3.4-gpgme                 -                                           
+v   python3.4-gpgme:i386            -                                           
+v   python3.4-gpgme-dbg             -                                           
+v   python3.4-gpgme-dbg:i386        -                                           
+v   python3.4-hunspell              -                                           
+v   python3.4-hunspell:i386         -                                           
+v   python3.4-icu                   -                                           
+v   python3.4-icu:i386              -                                           
+v   python3.4-icu-dbg               -                                           
+v   python3.4-icu-dbg:i386          -                                           
+v   python3.4-kdtree                -                                           
+v   python3.4-kdtree:i386           -                                           
+v   python3.4-kdtree-dbg            -                                           
+v   python3.4-kdtree-dbg:i386       -                                           
+v   python3.4-kerberos              -                                           
+v   python3.4-kerberos:i386         -                                           
+v   python3.4-kyotocabinet          -                                           
+v   python3.4-kyotocabinet:i386     -                                           
+v   python3.4-leveldb               -                                           
+v   python3.4-leveldb:i386          -                                           
+v   python3.4-llfuse                -                                           
+v   python3.4-llfuse:i386           -                                           
+v   python3.4-lxml                  -                                           
+v   python3.4-lxml:i386             -                                           
+v   python3.4-lxml-dbg              -                                           
+v   python3.4-lxml-dbg:i386         -                                           
+i A python3.4-minimal               - Minimal subset of the Python language (ver
+p   python3.4-minimal:i386          - Minimal subset of the Python language (ver
+v   python3.4-minimal:any           -                                           
+v   python3.4-minimal:any:i386      -                                           
+v   python3.4-newt                  -                                           
+v   python3.4-newt:i386             -                                           
+v   python3.4-numpy                 -                                           
+v   python3.4-numpy:i386            -                                           
+v   python3.4-parted                -                                           
+v   python3.4-parted:i386           -                                           
+v   python3.4-psycopg2              -                                           
+v   python3.4-psycopg2:i386         -                                           
+v   python3.4-pyaudio               -                                           
+v   python3.4-pyaudio:i386          -                                           
+v   python3.4-pycangjie             -                                           
+v   python3.4-pycangjie:i386        -                                           
+v   python3.4-pyfits                -                                           
+v   python3.4-pyfits:i386           -                                           
+v   python3.4-pykde4                -                                           
+v   python3.4-pykde4:i386           -                                           
+v   python3.4-pylibacl              -                                           
+v   python3.4-pylibacl:i386         -                                           
+v   python3.4-pytango               -                                           
+v   python3.4-pytango:i386          -                                           
+v   python3.4-pyx                   -                                           
+v   python3.4-pyx:i386              -                                           
+v   python3.4-pyxattr               -                                           
+v   python3.4-pyxattr:i386          -                                           
+v   python3.4-pyxattr-dbg           -                                           
+v   python3.4-pyxattr-dbg:i386      -                                           
+v   python3.4-renderpm              -                                           
+v   python3.4-renderpm:i386         -                                           
+v   python3.4-reportlab-accel       -                                           
+v   python3.4-reportlab-accel:i386  -                                           
+v   python3.4-sane                  -                                           
+v   python3.4-sane:i386             -                                           
+v   python3.4-sfml                  -                                           
+v   python3.4-sfml:i386             -                                           
+v   python3.4-tk                    -                                           
+v   python3.4-tk:i386               -                                           
+p   python3.4-venv                  - Interactive high-level object-oriented lan
+p   python3.4-venv:i386             - Interactive high-level object-oriented lan
+v   python3.4-venv:any              -                                           
+v   python3.4-venv:any:i386         -                                           
+v   python3.4-zeroc-ice             -                                           
+v   python3.4-zeroc-ice:i386        -                                           
+v   python3.4-zope.interface        -                                           
+v   python3.4-zope.interface:i386   -                                           
+v   python3.4:any                   -                                           
+v   python3.4:any:i386              -                                           
+v   python3:any                     -                                           
+v   python3:any:i386                -                                           
+p   uwsgi-plugin-python3            - WSGI plugin for uWSGI (Python 3)          
+p   uwsgi-plugin-python3:i386       - WSGI plugin for uWSGI (Python 3)          

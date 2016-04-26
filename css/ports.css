@@ -1,16 +1,16 @@
 body { padding-top: 70px;
-        font-family: 'Inconsolata', ;
+        font-family: 'Old Standard',serif ;
 }
 
 #home{
-   background-image:url("http://theviajerock.tk/img/mybackground.jpg");
+   background-image:url("https://farm6.staticflickr.com/5759/23109131493_3413cb0c98_h.jpg");
   background-size:100% auto;
 
   font-family: 'Inconsolata';
   font-size:100%;
 }
 #aboutme{
-  background-image:url("http://theviajerock.tk/img/myimg6.jpg");
+  background-image:url("https://farm6.staticflickr.com/5674/23627421962_be2ee91b98_z.jpg");
 background-size:100% auto;
   background-position:center;
 
