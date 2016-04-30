@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="es">
+<head>
+<meta charset="utf-8">
+<base href="https://www.sysdev.co/blog2/es/">
+<meta name="description" content="Python, Javascript, Linux, thoughts, daily things that happen to me">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thoughts, ideas and reminders | Thoughts, ideas and reminders</title>
+<link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
+<link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS (es)" href="rss.xml">
+<link rel="canonical" href="https://www.sysdev.co/blog2/es/">
+<!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+</head>
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Ir al contenido principal</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://www.sysdev.co/blog2/es/">
+
+                <span id="blog-title">Thoughts, ideas and reminders | Thoughts, ideas and reminders</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="archive.html">Archivo</a>
+                </li>
+<li>
+<a href="categories/">Etiquetas</a>
+                </li>
+<li>
+<a href="rss.xml">Canal RSS</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+            </li>
+<li><a href="https://www.sysdev.co/blog2/" rel="alternate" hreflang="en">English</a></li>
+
+                
+                    
+                
+            </ul>
+</div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+
+    
+<div class="postindex">
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/how-to-use-rsync/" class="u-url">How to use rsync</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Victor Hernandez
+            </span></p>
+            <p class="dateline"><a href="posts/how-to-use-rsync/" rel="bookmark"><time class="published dt-published" datetime="2015-11-08T12:37:24-05:00" title="2015-11-08 12:37">2015-11-08 12:37</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/how-to-use-rsync/#disqus_thread" data-disqus-identifier="cache/posts/how-to-use-rsync.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Tengo dos carpetas, <em>carpeta1</em> y <em>carpeta2</em>, voy a copiar todo el contenido de <em>carpeta1</em> a <em>carpeta2</em>.</p>
+<blockquote>
+rsync -r folder1/* folder2</blockquote>
+<div class="section" id="opciones">
+<h2>Opciones</h2>
+<p>rsync tiene muchas opciones que permiten obtener diferentes resultados:</p>
+<p><strong>-r</strong>: Esta opcion significa recursión, esto le dice a rsync que copie todo lo que hay dentro de la carpeta y subcarpetas.</p>
+<p>Para copia recursiva tambien se puede usar la opción <strong>-a</strong>, ademas esta opción permite preservar tiempo de modificación, grupos, dueños y permisos de archivos.</p>
+<p><strong>-v</strong>: Esta opción activa el detalle para la operación ejecutada, asi se obtendrá mas información de lo que se esta haciendo y del resultado del mismo.</p>
+<p><strong>-h</strong>: Con la opción -h se puede producir una salida mas legible para el usuario al ejecutar rsync, con datos mas amigables de entender.</p>
+</div>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/how-to-setup-a-virtualenv-with-python3/" class="u-url">How to setup a virtualenv with python3</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Victor Hernandez
+            </span></p>
+            <p class="dateline"><a href="posts/how-to-setup-a-virtualenv-with-python3/" rel="bookmark"><time class="published dt-published" datetime="2015-11-08T11:42:34-05:00" title="2015-11-08 11:42">2015-11-08 11:42</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/how-to-setup-a-virtualenv-with-python3/#disqus_thread" data-disqus-identifier="cache/posts/how-to-setup-a-virtualenv-with-python3.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.</p>
+<p>Primero que todo, debes estar seguro de que tienes instalado Python3, si no, instalalo.</p>
+<blockquote>
+apt-get install python3.4</blockquote>
+<p>Ahora instala pip si no lo tienes instalado.</p>
+<blockquote>
+<p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+<p>python3 get-pip.py</p>
+</blockquote>
+<p>Ahora installa virtualenv, y crea un ambiente con Python3</p>
+<blockquote>
+<p>pip3 install virtualenv</p>
+<p>#Crea el ambiente virtualenv sin paquetes</p>
+<p>virtualenv projectname --no-site-packages</p>
+</blockquote>
+<p>Usalo</p>
+<blockquote>
+<p>cd projectname</p>
+<p>source bin/activate</p>
+</blockquote>
+<p>Ahora pruebalo escribiendo "python3" en consola. Para desactivar virtualenv:</p>
+<blockquote>
+deactivate</blockquote>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/why-i-began-with-this-never-forget/" class="u-url">Why i began with this?... Never forget.</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Victor Hernandez
+            </span></p>
+            <p class="dateline"><a href="posts/why-i-began-with-this-never-forget/" rel="bookmark"><time class="published dt-published" datetime="2015-10-05T19:06:32-05:00" title="2015-10-05 19:06">2015-10-05 19:06</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/why-i-began-with-this-never-forget/#disqus_thread" data-disqus-identifier="cache/posts/why-i-began-with-this-never-forget.html">Comments</a>
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>For a long time i wanted to start a blog by multiple reasons, like for example put the things that i learn every day, whether they are or not technology, but especially technology. Also to write about procedures, tutorials for me (And that maybe can be useful to someone else), questions that i had, i searched, i answered, but with the time i forget and i had to search again.</p>
+<p>I want also through the creation of content for this site, to get better my english language skills (German language in a future too), and also, even is my native language, of spanish too. At this moment i am not an expert in nothing, i've seen themes by here and by there, so you could say that this is not the most reliable site to apply concepts, but the idea is to show my learning path and if this can be helpful to somebody, well, welcome.</p>
+<p>I have decided to go by the path of development, in fact, i've been studying Python/Js about three years ago at a rate overwhelmingly slow, that un retrospective shows me all the time that i lost, and even so, how much i've learned. For several months until the day that this post was writen, i accelerated the speed of my self-study and i've learned a lot of things more deeply.</p>
+<p>Finally, i will write the topics that until now i know or that i want to learn in a very-close future, and i will put a measurement scale  about my current knowledge in these. Also these will be the topics that i want to polish, so possibly in a future i will review this post and make a comparison of my progress. The categories for the measurement will be: 1 for "Without experience, but i want to learn", 2 for "Prior experience but rusty", 3 for "Proficient".</p>
+<ul class="simple">
+<li>Linux - 3 (A lot to learn yet but very comfortable)</li>
+<li>Html - 3</li>
+<li>
+<a class="reference external" href="http://www.vim.org/">Vim</a> - 3 (I've learned thanks to one of the smartets persons in the field)</li>
+<li>git - 3</li>
+<li>Javascript - 3 (I've learned in previous works, tutorials and very specially in Freecodecamp)</li>
+<li>
+<a class="reference external" href="http://www.python.org/">Python</a> - 2 (My favorite)</li>
+<li>Networking - 2</li>
+<li>Css - 2</li>
+<li>
+<a class="reference external" href="http://www.freedesktop.org/software/systemd/man/systemd-nspawn.html">Systemd-nspawn</a> - 2</li>
+<li>SQL -2</li>
+<li>Aerospike - 2</li>
+<li>RethinkDB - 2</li>
+<li>Windows Server - 2</li>
+</ul>
+</div>
+    </div>
+    </article>
+</div>
+
+
+
+        
+       <script>var disqus_shortname="sysdev";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:victorliferock@gmail.com">Victor Hernandez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+</div>
+</div>
+
+
+            <script src="../assets/js/all-nocdn.js"></script><script src="../assets/js/colorbox-i18n/jquery.colorbox-es.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("es");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
+</body>
+</html>

@@ -1,0 +1,4 @@
+Sitemap: https://www.sysdev.co/blog2/sitemapindex.xml
+
+User-Agent: *
+Host: www.sysdev.co
