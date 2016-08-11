@@ -6,141 +6,141 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://www.sysdev.co/blog/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/2015/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/2015/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/archive.html</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/archive.html</loc>
+  <lastmod>2016-08-11T02:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/javascript/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/javascript/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/linux/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/linux/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/python/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/python/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/python3/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/python3/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/technology/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/technology/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/thoughts/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/thoughts/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/vim/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/vim/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/categories/virtualenv/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/categories/virtualenv/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/2015/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/2015/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/archive.html</loc>
+  <lastmod>2016-08-11T02:48:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/archive.html</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/javascript/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/linux/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/javascript/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/python/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/linux/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/python3/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/python/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/technology/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/python3/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/thoughts/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/technology/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/vim/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/thoughts/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/categories/virtualenv/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/vim/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/galleries/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/categories/virtualenv/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/</loc>
+  <lastmod>2016-08-11T02:39:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://theviajerock.github.io/myportfolio/blog/posts/how-to-setup-a-virtualenv-with-python3/" />
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-use-rsync/</loc>
+  <lastmod>2016-08-11T02:39:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://theviajerock.github.io/myportfolio/blog/posts/how-to-use-rsync/" />
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/es/posts/why-i-began-with-this-never-forget/</loc>
+  <lastmod>2016-08-11T02:39:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="http://theviajerock.github.io/myportfolio/blog/posts/why-i-began-with-this-never-forget/" />
+ </url>
+ <url>
+  <loc>http://theviajerock.github.io/myportfolio/blog/galleries/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/galleries/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/listings/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/posts/how-to-setup-a-virtualenv-with-python3/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/posts/how-to-setup-a-virtualenv-with-python3/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.sysdev.co/blog/posts/how-to-setup-a-virtualenv-with-python3/" />
+  <xhtml:link rel="alternate" hreflang="es" href="http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-setup-a-virtualenv-with-python3/" />
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/posts/how-to-use-rsync/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/posts/how-to-use-rsync/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.sysdev.co/blog/posts/how-to-use-rsync/" />
+  <xhtml:link rel="alternate" hreflang="es" href="http://theviajerock.github.io/myportfolio/blog/es/posts/how-to-use-rsync/" />
  </url>
  <url>
-  <loc>https://www.sysdev.co/blog/es/posts/why-i-began-with-this-never-forget/</loc>
+  <loc>http://theviajerock.github.io/myportfolio/blog/posts/why-i-began-with-this-never-forget/</loc>
   <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.sysdev.co/blog/posts/why-i-began-with-this-never-forget/" />
- </url>
- <url>
-  <loc>https://www.sysdev.co/blog/galleries/</loc>
-  <lastmod>2016-08-11T02:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://www.sysdev.co/blog/listings/</loc>
-  <lastmod>2016-08-11T02:39:00Z</lastmod>
- </url>
- <url>
-  <loc>https://www.sysdev.co/blog/posts/how-to-setup-a-virtualenv-with-python3/</loc>
-  <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.sysdev.co/blog/es/posts/how-to-setup-a-virtualenv-with-python3/" />
- </url>
- <url>
-  <loc>https://www.sysdev.co/blog/posts/how-to-use-rsync/</loc>
-  <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.sysdev.co/blog/es/posts/how-to-use-rsync/" />
- </url>
- <url>
-  <loc>https://www.sysdev.co/blog/posts/why-i-began-with-this-never-forget/</loc>
-  <lastmod>2016-08-11T02:39:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://www.sysdev.co/blog/es/posts/why-i-began-with-this-never-forget/" />
+  <xhtml:link rel="alternate" hreflang="es" href="http://theviajerock.github.io/myportfolio/blog/es/posts/why-i-began-with-this-never-forget/" />
  </url>
 </urlset>
