@@ -1,0 +1,4 @@
+Sitemap: http://theviajerock.github.io/blog/sitemapindex.xml
+
+User-Agent: *
+Host: theviajerock.github.io
