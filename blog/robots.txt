@@ -1,4 +1,4 @@
-Sitemap: http://theviajerock.github.io/blog/sitemapindex.xml
+Sitemap: https://sysdev.co/blog/sitemapindex.xml
 
 User-Agent: *
-Host: theviajerock.github.io
+Host: sysdev.co
