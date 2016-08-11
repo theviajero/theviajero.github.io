@@ -1,0 +1,23 @@
+<p>Este es un tema un poco confuso para mi, asi que aquí comparto una muy buena solución para esto. Esto ha sido trabajado en Debian 8.</p>
+<p>Primero que todo, debes estar seguro de que tienes instalado Python3, si no, instalalo.</p>
+<blockquote>
+apt-get install python3.4</blockquote>
+<p>Ahora instala pip si no lo tienes instalado.</p>
+<blockquote>
+<p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+<p>python3 get-pip.py</p>
+</blockquote>
+<p>Ahora installa virtualenv, y crea un ambiente con Python3</p>
+<blockquote>
+<p>pip3 install virtualenv</p>
+<p>#Crea el ambiente virtualenv sin paquetes</p>
+<p>virtualenv projectname --no-site-packages</p>
+</blockquote>
+<p>Usalo</p>
+<blockquote>
+<p>cd projectname</p>
+<p>source bin/activate</p>
+</blockquote>
+<p>Ahora pruebalo escribiendo &quot;python3&quot; en consola. Para desactivar virtualenv:</p>
+<blockquote>
+deactivate</blockquote>

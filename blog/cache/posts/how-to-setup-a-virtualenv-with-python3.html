@@ -1,0 +1,23 @@
+<p>This is a topic that use to confuse me, so here i share a very good solution for this. I work with this steps in Debian 8.</p>
+<p>First at all, be sure that you have installed Python3 on your system, if not, install it.</p>
+<blockquote>
+apt-get install python3.4</blockquote>
+<p>Then install pip if you don't have installed it.</p>
+<blockquote>
+<p>wget <a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a></p>
+<p>python3 get-pip.py</p>
+</blockquote>
+<p>Now, install virtualenv and create the environment with python3</p>
+<blockquote>
+<p>pip3 install virtualenv</p>
+<p>#Create the virtualenv environment without packages</p>
+<p>virtualenv projectname --no-site-packages</p>
+</blockquote>
+<p>Use it</p>
+<blockquote>
+<p>cd projectname</p>
+<p>source bin/activate</p>
+</blockquote>
+<p>Now you can try typing <strong>python3</strong>. For deactivate the virtualenv:</p>
+<blockquote>
+deactivate</blockquote>
