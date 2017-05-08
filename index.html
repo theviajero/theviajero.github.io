@@ -11,24 +11,203 @@
 		<meta name='author' content='Victor Martinez'>
 		
 		<style type="text/css">
-		body {
-		background:white;
-		color: #001f3f;
-		
-		}
-		</style>
+			body { background: white; color: #001f3f; font-family: Georgia, serif; font-size: 17px; line-height: 1.6; word-spacing: 0.1em; margin: 0 auto; max-width: 1000px; }
+			#menu { margin: 0 auto; width: 92.5%; height: 5.5em; border-bottom: 1px solid #d0c8c0; }
+			#menu .site-title { float: left; font-size: 225%; color: #d0c8c0; letter-spacing: 0.15em; padding: 0.45em 0; text-transform: uppercase; margin-left: -0.05em; }
+			#menu ul.links { float: right; list-style-type: none; font-size: 85%; margin-top: 2.5em; }
+			#menu ul.links li { display: inline; margin: 0 0 0 0.8em; padding: 0; }
+			#menu a { border: none; color: #0074D9; }
+			#menu a:hover { border-bottom: 1px solid; }
+			#content { margin: 2em auto; width: 92.5%; max-width: 700px; }
+			h1, h2, p, ul { margin: 1em 0; }
+			p.gap { margin-top: 1.8em; }
+			p.subtitle { margin-top: 0; font-style: italic; }
+			a { text-decoration: none; border-bottom: 1px dotted; }
+			a:hover { border-bottom: 1px solid; }
+			a:link { color: #001f3f; }
+			a:visited { color: #0074D9; }
+			h1 a, h2 a { border-bottom: none; }
+			h1 a:hover, h1 a:link, h1 a:visited, h2 a:hover, h2 a:link, h2 a:visited { color: #001f3f; }
+			h1, h2 { font-weight: normal; letter-spacing: 0.02em; }
+			h2 { font-variant: small-caps; }
+			h1 { margin: 0 0 0 -0.05em; font-size: 200%; }
+			h2 { margin: 1.8em 0 -0.2em 0; font-size: 150%; }
+			h3 { margin: 1.5em 0 -0.5em 0; font-size: 100%; }
+			ul { padding: 0; list-style-type: disc; }
+			li { padding: 0; margin-left: 1.2em; margin-bottom: 0.5em; }
+			ol li { margin-left: -0.7em; }
+			blockquote { font-size: 90%; margin: 2em 0; padding: 0 1.5em; border-left: 1px dotted #001f3f; }
+			.sc { font-variant: small-caps; }
+			pre { overflow-x: auto; }
+			code { font-size: 92.5%; word-spacing: 0; }
+			.print-only { display: none; }
+			img { max-width: 100%; }
+			img.right { float: right; width: 40%; margin: 1.5em 0 1.5em 2em; }
+			.right-callout { float: right; width: 13em; font-size: 75%; font-style: italic; padding: 0.5em 0 0.5em 1.5em; border-left: 1px dotted #603000; margin-left: 1.5em; }
+			@media (max-width: 750px) {
+			body { font-size: 15px; }
+			}
+			@media (max-width: 615px) {
+			body { font-size: 13px; }
+			#menu { height: 7.5em; }
+			#menu .site-title { float: none; }
+			#menu ul.links { float: none; margin: -0.5em 0 0 -0.8em; }
+			h1 { margin-top: 0.5em 0; }
+			}
+			@media print {
+			.no-print { display: none; }
+			.print-only { display: block; }
+			a:link, a:visited { color: #603000; }
+			}
+			.highlight .hll { background-color: #ffffcc }
+			.highlight  { background: #ffffff; }
+			.highlight .c { color: #aaaaaa; font-style: italic }
+			.highlight .err { color: #FF0000; background-color: #FFAAAA }
+			.highlight .k { color: #0000aa }
+			.highlight .ch { color: #aaaaaa; font-style: italic }
+			.highlight .cm { color: #aaaaaa; font-style: italic }
+			.highlight .cp { color: #4c8317 }
+			.highlight .cpf { color: #aaaaaa; font-style: italic }
+			.highlight .c1 { color: #aaaaaa; font-style: italic }
+			.highlight .cs { color: #0000aa; font-style: italic }
+			.highlight .gd { color: #aa0000 }
+			.highlight .ge { font-style: italic }
+			.highlight .gr { color: #aa0000 }
+			.highlight .gh { color: #000080; font-weight: bold }
+			.highlight .gi { color: #00aa00 }
+			.highlight .go { color: #888888 }
+			.highlight .gp { color: #555555 }
+			.highlight .gs { font-weight: bold }
+			.highlight .gu { color: #800080; font-weight: bold }
+			.highlight .gt { color: #aa0000 }
+			.highlight .kc { color: #0000aa }
+			.highlight .kd { color: #0000aa }
+			.highlight .kn { color: #0000aa }
+			.highlight .kp { color: #0000aa }
+			.highlight .kr { color: #0000aa }
+			.highlight .kt { color: #00aaaa }
+			.highlight .m { color: #009999 }
+			.highlight .s { color: #aa5500 }
+			.highlight .na { color: #1e90ff }
+			.highlight .nb { color: #00aaaa }
+			.highlight .nc { color: #00aa00; text-decoration: underline }
+			.highlight .no { color: #aa0000 }
+			.highlight .nd { color: #888888 }
+			.highlight .ni { color: #880000; font-weight: bold }
+			.highlight .nf { color: #00aa00 }
+			.highlight .nn { color: #00aaaa; text-decoration: underline }
+			.highlight .nt { color: #1e90ff; font-weight: bold }
+			.highlight .nv { color: #aa0000 }
+			.highlight .ow { color: #0000aa }
+			.highlight .w { color: #bbbbbb }
+			.highlight .mb { color: #009999 }
+			.highlight .mf { color: #009999 }
+			.highlight .mh { color: #009999 }
+			.highlight .mi { color: #009999 }
+			.highlight .mo { color: #009999 }
+			.highlight .sa { color: #aa5500 }
+			.highlight .sb { color: #aa5500 }
+			.highlight .sc { color: #aa5500 }
+			.highlight .dl { color: #aa5500 }
+			.highlight .sd { color: #aa5500 }
+			.highlight .s2 { color: #aa5500 }
+			.highlight .se { color: #aa5500 }
+			.highlight .sh { color: #aa5500 }
+			.highlight .si { color: #aa5500 }
+			.highlight .sx { color: #aa5500 }
+			.highlight .sr { color: #009999 }
+			.highlight .s1 { color: #aa5500 }
+			.highlight .ss { color: #0000aa }
+			.highlight .bp { color: #00aaaa }
+			.highlight .fm { color: #00aa00 }
+			.highlight .vc { color: #aa0000 }
+			.highlight .vg { color: #aa0000 }
+			.highlight .vi { color: #aa0000 }
+			.highlight .vm { color: #aa0000 }
+			.highlight .il { color: #009999 }
+		 </style>
 	</head>
 	
 	
 	<body>
-	
-	
-	
-	
-	
-	
-	
-	</body>
 
+<div id="container">
 
+<div id="menu">
+ <div class="site-title">Victor Martinez</div>
+ 
+ <ul class="links no-print">
+  <li><a href="http://torvic.co/" title="Go to the home page">Home</a></li>
+  <li><a href="/blog" title="Blog">Home</a></li>
+   <li><a href="mailto:victorliferock@gmail.com" title="Email me">Contact</a></li>
+ </ul>
+
+ <ul class="links print-only">
+  <li><a href="http://torvic.co/">torvic.com</a>
+  <li><a href="mailto:victorliferock@gmail.com">victorliferock@gmail.com</a></li>
+ </ul>
+</div>
+
+<div id="content">
+<h1><a href="http://torvic.co/">Victor Martinez Resume/CV</a></h1>
+
+<blockquote>
+<p class='no-print' style='word-spacing: 0.13em;'><b>Go to:</b>
+ <a href='#summary'>Summary</a> |
+ <a href='#skills'>Skills</a> |
+ <a href='#experience'>Experience</a> |
+ <a href='#education'>Education</a> |
+ <a href='#aboutme'>About me</a> |
+ <a href='/CVVic.pdf' title='PDF version of my CV / resume'>PDF</a>
+</p>
+</blockquote>
+
+<h2 id='summary'>Summary</h2>
+
+<p>I'm a software developer with experience in process automation, scraping, servers administration, data mining. </p>
+
+<p>I've also written some other things in C and Javascript. I am a really restless person, everyday I try to learn something new, not because I have to, just because I like it. </p>
+
+<h2 id='skills'>Skills: what I do...</h2>
+
+<ul>
+ <li>Automate <b>processes</b> specially when they are something related to data management.</li>
+ <li>Administer <b>servers,</b> including installing, configuration  and use of new technoloy, software or databases</li>
+ <li>I am <b>fast learner,</b> which is good because I can offer a good adaptation to any subject.</li>
+ <li>My <b>communication</b> and relationship with coworkers and any other people is very good, adding always a good environment.</li>
+ <li>Good at documenting and reading documentation</li>
+</ul>
+
+<h2 id='experience'>Experience</h2>
+
+<p><a href='https://www.grupobancolombia.com'><b>Grupo Bancolombia</b></a> &ndash;
+Software developer &ndash; August 2015 to now:</p>
+
+<ul>
+ <li>Data mining and report construction</li>
+ <li>Data management and report construction with SAS, Pandas.</li>
+ <li>Developing with python automating processes</li>
+</ul>
+
+<p class="gap"><a href='http://www.tsgroup.com.co'><b>TSGroup</b></a>  &ndash;
+Systems Analyst &ndash; March 2014 to July 2015:</p>
+
+<ul>
+ <li>Responsible of servers deployment and monitoring.</li>
+ <li>Involvment in projects related to big data, specifically in the development stage and automation of servers deployment.</li>
+ <li>Installation, configuration and use of software like IBM Websphere Portal and Domino in Linux and Windows</li>
+</ul>
+
+<h2 id='education'>Education</h2>
+
+<p>I have an Associate Degree of applied science in computer networking technology and graduated from the <a href='http://www.sena.edu.co/es-co/Paginas/default.aspx'>National Service of Learning</a> in 2013</p>
+
+<h2 id='aboutme'>About me</h2>
+
+<p>I'm from Medellin - Colombia, I have truly passion for learning new things, reading, playing with arduino and raspberry, running and traveling. I'm open to works in other countries, I speak spanish, english and currently I'm learning German.</p>
+</div>
+
+</div>
+
+</body>
 </html>
