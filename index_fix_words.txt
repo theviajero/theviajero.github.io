@@ -1,0 +1,15 @@
+SUMMARY
+I'm a software developer with experience in process automation, scraping, servers administration, data mining.
+I've also written programs in C and Javascript. I am a really restless person, everyday I try to learn something new, not because I have to, just because I like it.
+I’m a very ambitious person,I therefore like to learn something new everyday.
+
+SKILLS: WHAT I DO...
+•	Automate processes especially when they are related to data management.
+•	Administer servers, including installing, configuration and use of new technology, software or databases
+•	I am fast learner, which is good because it makes me very agile, therefore I can adapt quickly.
+•	My communication and relationship with coworkers and others is very good, adding always a good environment.
+•	Good at documenting and reading documentation
+
+
+ABOUT ME
+I'm from Medellin - Colombia, I have a true passion for learning new things, reading, playing with Arduino and raspberry, running and traveling. I'm open to work in other countries, I speak English, Spanish, and currently I'm learning German. You can find me also on Linkedin.
