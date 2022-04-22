@@ -1,181 +1,235 @@
-<DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Victor Portfolio</title>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Victor Hernandez</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="description" content="Victor Hernandez is an software developer with hobbies and interests like arduino,
+		raspberry, machine learning, image recognition, web scraping">
+		<meta name='keywords' content="Victor Hernandez, Victor Andres Martinez Hernandez, Victor Hernandez, Victor Andres Martinez,
+		Victor Andres Hernandez, Andres Martinez Hernandez, software, engineer, python, colombia, medellin, scraping, Victor Hernandez CV, Victor Hernandez Resume, Victor Hernandez skills">
+		<meta name='author' content='Victor Hernandez'>
 
-    <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" />
-    <link href="css/ports.css" rel="stylesheet">
+		<style type="text/css">
+			body { background: white; color: #001f3f; font-family: Georgia, serif; font-size: 17px; line-height: 1.6; word-spacing: 0.1em; margin: 0 auto; max-width: 1000px; }
+			#menu { margin: 0 auto; width: 92.5%; height: 5.5em; border-bottom: 1px solid #d0c8c0; }
+			#menu .site-title { float: left; font-size: 225%; color: #d0c8c0; letter-spacing: 0.15em; padding: 0.45em 0; text-transform: uppercase; margin-left: -0.05em; }
+			#menu ul.links { float: right; list-style-type: none; font-size: 85%; margin-top: 2.5em; }
+			#menu ul.links li { display: inline; margin: 0 0 0 0.8em; padding: 0; }
+			#menu a { border: none; color: #0074D9; }
+			#menu a:hover { border-bottom: 1px solid; }
+			#content { margin: 2em auto; width: 92.5%; max-width: 700px; }
+			h1, h2, p, ul { margin: 1em 0; }
+			p.gap { margin-top: 1.8em; }
+			p.subtitle { margin-top: 0; font-style: italic; }
+			a { text-decoration: none; border-bottom: 1px dotted; }
+			a:hover { border-bottom: 1px solid; }
+			a:link { color: #001f3f; }
+			a:visited { color: #0074D9; }
+			h1 a, h2 a { border-bottom: none; }
+			h1 a:hover, h1 a:link, h1 a:visited, h2 a:hover, h2 a:link, h2 a:visited { color: #001f3f; }
+			h1, h2 { font-weight: normal; letter-spacing: 0.02em; }
+			h2 { font-variant: small-caps; }
+			h1 { margin: 0 0 0 -0.05em; font-size: 200%; }
+			h2 { margin: 1.8em 0 -0.2em 0; font-size: 150%; }
+			h3 { margin: 1.5em 0 -0.5em 0; font-size: 100%; }
+			ul { padding: 0; list-style-type: disc; }
+			li { padding: 0; margin-left: 1.2em; margin-bottom: 0.5em; }
+			ol li { margin-left: -0.7em; }
+			blockquote { font-size: 90%; margin: 2em 0; padding: 0 1.5em; border-left: 1px dotted #001f3f; }
+			.sc { font-variant: small-caps; }
+			pre { overflow-x: auto; }
+			code { font-size: 92.5%; word-spacing: 0; }
+			.print-only { display: none; }
+			img { max-width: 100%; }
+			img.right { float: right; width: 40%; margin: 1.5em 0 1.5em 2em; }
+			.right-callout { float: right; width: 13em; font-size: 75%; font-style: italic; padding: 0.5em 0 0.5em 1.5em; border-left: 1px dotted #603000; margin-left: 1.5em; }
+			@media (max-width: 750px) {
+			body { font-size: 15px; }
+			}
+			@media (max-width: 615px) {
+			body { font-size: 13px; }
+			#menu { height: 7.5em; }
+			#menu .site-title { float: none; }
+			#menu ul.links { float: none; margin: -0.5em 0 0 -0.8em; }
+			h1 { margin-top: 0.5em 0; }
+			}
+			@media print {
+			.no-print { display: none; }
+			.print-only { display: block; }
+			a:link, a:visited { color: #603000; }
+			}
+			.highlight .hll { background-color: #ffffcc }
+			.highlight  { background: #ffffff; }
+			.highlight .c { color: #aaaaaa; font-style: italic }
+			.highlight .err { color: #FF0000; background-color: #FFAAAA }
+			.highlight .k { color: #0000aa }
+			.highlight .ch { color: #aaaaaa; font-style: italic }
+			.highlight .cm { color: #aaaaaa; font-style: italic }
+			.highlight .cp { color: #4c8317 }
+			.highlight .cpf { color: #aaaaaa; font-style: italic }
+			.highlight .c1 { color: #aaaaaa; font-style: italic }
+			.highlight .cs { color: #0000aa; font-style: italic }
+			.highlight .gd { color: #aa0000 }
+			.highlight .ge { font-style: italic }
+			.highlight .gr { color: #aa0000 }
+			.highlight .gh { color: #000080; font-weight: bold }
+			.highlight .gi { color: #00aa00 }
+			.highlight .go { color: #888888 }
+			.highlight .gp { color: #555555 }
+			.highlight .gs { font-weight: bold }
+			.highlight .gu { color: #800080; font-weight: bold }
+			.highlight .gt { color: #aa0000 }
+			.highlight .kc { color: #0000aa }
+			.highlight .kd { color: #0000aa }
+			.highlight .kn { color: #0000aa }
+			.highlight .kp { color: #0000aa }
+			.highlight .kr { color: #0000aa }
+			.highlight .kt { color: #00aaaa }
+			.highlight .m { color: #009999 }
+			.highlight .s { color: #aa5500 }
+			.highlight .na { color: #1e90ff }
+			.highlight .nb { color: #00aaaa }
+			.highlight .nc { color: #00aa00; text-decoration: underline }
+			.highlight .no { color: #aa0000 }
+			.highlight .nd { color: #888888 }
+			.highlight .ni { color: #880000; font-weight: bold }
+			.highlight .nf { color: #00aa00 }
+			.highlight .nn { color: #00aaaa; text-decoration: underline }
+			.highlight .nt { color: #1e90ff; font-weight: bold }
+			.highlight .nv { color: #aa0000 }
+			.highlight .ow { color: #0000aa }
+			.highlight .w { color: #bbbbbb }
+			.highlight .mb { color: #009999 }
+			.highlight .mf { color: #009999 }
+			.highlight .mh { color: #009999 }
+			.highlight .mi { color: #009999 }
+			.highlight .mo { color: #009999 }
+			.highlight .sa { color: #aa5500 }
+			.highlight .sb { color: #aa5500 }
+			.highlight .sc { color: #aa5500 }
+			.highlight .dl { color: #aa5500 }
+			.highlight .sd { color: #aa5500 }
+			.highlight .s2 { color: #aa5500 }
+			.highlight .se { color: #aa5500 }
+			.highlight .sh { color: #aa5500 }
+			.highlight .si { color: #aa5500 }
+			.highlight .sx { color: #aa5500 }
+			.highlight .sr { color: #009999 }
+			.highlight .s1 { color: #aa5500 }
+			.highlight .ss { color: #0000aa }
+			.highlight .bp { color: #00aaaa }
+			.highlight .fm { color: #00aa00 }
+			.highlight .vc { color: #aa0000 }
+			.highlight .vg { color: #aa0000 }
+			.highlight .vi { color: #aa0000 }
+			.highlight .vm { color: #aa0000 }
+			.highlight .il { color: #009999 }
+		 </style>
+	</head>
 
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-     <style>
-     #imagen{
-  background-image:url(http://7-themes.com/data_images/out/39/6903826-beautiful-field.jpg);
-}
-     </style>
-  </head>
-<body>
 
- <div class="container">
-  <div class="row" >
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <nav class="navbar navbar-inverse nav-justified" role="navigation">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">Victor Martinez</a>    
-          </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Home</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="about.html" target="_blank">About</a></li>
-            <li><a href="blog" target="_blank">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-       </div>
-      </nav>
-    </div>
-    
-  </div>
-  <div class="jumbotron" id="home">
-    <h1> MyWay </h1>
-    <p> Learning and sharing knowledge 
-      </p>
-  </div>
-  
-  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="portfolio">
-    
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <div class="thumbnail">
-        <a class="fancybox various" data-fancybox-type="iframe" href="weather/weather.html">
-          <img class="img-responsive" src="https://farm6.staticflickr.com/5701/23709404556_cba6bcc277_b.jpg">
-        </a>
-        <p>Weather Tool</p>
-        <p>App that brings the weather and load a picture depending of the location of the visitor.</p>
-        <p><a href="weather/weather.html" class="btn btn-primary fancybox" role="button" target="_blank">Check It</a></p>  
-      </div>
-    </div>
- 
-    
-  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-    <div class="thumbnail">
-      <a class="fancybox various" data-fancybox-type="iframe" href="quotes/quotes.html">
-          <img class="img-responsive" src="https://farm6.staticflickr.com/5645/23627053742_30e881253a_b.jpg">
-        </a>
-      <p>Random Quote Machine</p>
-      <p>Each time the button is pressed a new quote is generated</p>
-      <p><a href="quotes/quotes.html" class="btn btn-primary fancybox" role="button" target="_blank">Check It</a></p>  
-    </div>
-  </div>
- 
-    
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <div class="thumbnail">
-        <a class="fancybox various" data-fancybox-type="iframe" href="pomodoro/index.html">
-          <img class="img-responsive" src="https://farm1.staticflickr.com/710/23653236741_b66c3889f4_b.jpg">
-        </a>
-        <p>Pomodoro Clock</p>
-        <p>Pomodoro clock project made with AngularJS and some bootstrap</p>
-        <p><a href="pomodoro/index.html" class="btn btn-primary fancybox" role="button" target="_blank" >Check It</a></p>  
-      </div>
-    </div>
-    
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-      <div class="thumbnail">
-        <a class="fancybox various" data-fancybox-type="iframe" href="calculator/index.html">
-          <img class="img-responsive" src="https://farm6.staticflickr.com/5716/23735555535_fff285a636_b.jpg">
-        </a>
-        <p>Js Calculator</p>
-        <p>Calculator made with pure JavaScript and pure CSS</p>
-        <p><a href="calculator/index.html" class="btn btn-primary fancybox" role="button" target="_blank">Check It</a></p>  
-      </div>
-    </div>
-   <!-- 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <div class="thumbnail">
-       <a class="fancybox" rel="gallery1" href="http://theviajerock.tk/img/img5.jpg">
-          <img class="img-responsive" src="http://theviajerock.tk/img/myimg5.jpg">
-        </a>
-        <p>Project #5</p>
-        <p>Second text explaining something</p>
-        <p><a href="http://theviajerock.tk/img/img5.jpg" class="btn btn-primary fancybox" role="button" rel="gallery1" >Check It</a></p>  
-      </div>
-    </div>
+	<body>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-      <div class="thumbnail">
-        <a class="fancybox" rel="gallery1" href="http://theviajerock.tk/img/img66.jpg">
-          <img class="img-responsive" src="http://theviajerock.tk/img/myimg66.jpg">
-        </a>
-        <p>Project #6</p>
-        <p>Second text explaining something</p>
-        <p><a href="http://theviajerock.tk/img/img66.jpg" class="btn btn-primary fancybox" role="button" rel="gallery1" >Check It</a></p>  
-      </div>
-    </div>
-   -->
-    
-  </div>
+<div id="container">
+
+<div id="menu">
+ <div class="site-title">Victor Hernandez</div>
+
+ <ul class="links no-print">
+  <li><a href="http://theviajerock.github.io/" title="Go to the home page">Home</a></li>
+  <!--<li><a href="/blog" title="Blog">Home</a></li>-->
+   <li><a href="mailto:victorliferock@gmail.com" title="Email me">Contact</a></li>
+ </ul>
+
+ <ul class="links print-only">
+  <li><a href="http://theviajerock.github.io/">http://theviajerock.github.io/</a>
+  <li><a href="mailto:victorliferock@gmail.com">victorliferock@gmail.com</a></li>
+     <li><a href="https://www.linkedin.com/in/theviajerock/">Linkedin</a></li>
+ </ul>
 
 </div>
-<div class="container">
-  <div class="jumbotron" id="aboutme" >
 
-      <h2> Victor Hernandez | Medellin - Colombia </h2>
-      <h3>
-       Associate of applied science in computer networking technology.</h3>
-      <p>Restless in the best sense of the word, always wanting to know more, there is not useless knowledge to me. Besides this, I am energic and always disposed to the challenges that come my way. </p>
+<div id="content">
+<h1><a href="http://theviajerock.github.io/">Victor Hernandez Resume/CV</a></h1>
 
+<blockquote>
+<p class='no-print' style='word-spacing: 0.13em;'><b>Go to:</b>
+ <a href='#summary'>Summary</a> |
+ <a href='#skills'>Skills</a> |
+ <a href='#experience'>Experience</a> |
+ <a href='#education'>Education</a> |
+ <a href='#aboutme'>About me</a> |
+ <a href='/CVVic.pdf' title='PDF version of my CV / resume'>PDF</a> |
+ <a href='/index_es.html' title='PDF version of my CV / resume'>Español</a>
+</p>
+</blockquote>
 
-  </div>
+<h2 id='summary'>Summary</h2>
+
+<p>Software engineer with more than 8 years of experience in software development, server solutions and data mining/data structuring. I worked in a software development company for 2 years, offering infrastructure solutions using Linux, Unix and Windows servers; and installing, configuring and using different solutions.</p>
+
+<p>Later, I started working at Colombia's largest Financial Institution offering analytic, automation, API
+and web development solutions using tools such as Python, flask, pandas, Javascript, SAS Guide and Hadoop. </p>
+
+<p>
+    My latest and current job took me across the ocean, to Portugal where I've been using python, django, mongodb, postgresql,
+    kubernetes among other tools, with the aim of creating multiple services that meet the needs of the company.
+
+    I’m very passionate for technology, problem solving and for learning new things every day.
+</p>
+
+<h2 id='skills'>Skills: what I do...</h2>
+
+<ul>
+ <li>Process <b>automation</b>, specially data related ones.</li>
+ <li>Experience in SQL, SAS, Python, Javascript, django, flask, among others.</li>
+ <li>Server <b>administration</b>, including installation, configuration and use of new technology, software and databases.</li>
+ <li>I am <b>fast learner</b>  adapt easily to any change.</li>
+ <li>My <b>communication</b> and relationship skills are very good, providing a good working environment.</li>
+ </ul>
+
+<h2 id='experience'>Experience</h2>
+
+<p><a href='https://primetag.com/'><b>Primetag</b></a> (Portugal) &ndash;
+Software engineer &ndash; September 2019 to date:</p>
+
+<ul>
+ <li>Django, flask development</li>
+ <li>Configuration and Maintenance of UNIX Development & Production servers</li>
+<li>Usage of mysql, postgresql, mongodbSQL, azure cognitive search. </li>
+<li>ETL experience.</li>
+</ul>
+
+<p><a href='https://www.grupobancolombia.com'><b>Grupo Bancolombia</b></a> (Colombia) &ndash;
+Software developer &ndash; August 2015 to August 2019:</p>
+
+<ul>
+ <li>Data management and report development using SAS and python.</li>
+ <li>Process automation using Python</li>
+<li>Usage of Hadoop based deployments (cloudera), SQL, JS and SQL. Etl Experience. </li>
+<li>Web and API development using flask</li>
+</ul>
+
+<p class="gap"><a href='http://www.tsgroup.com.co'><b>TSGroup</b></a> (Colombia) &ndash;
+Systems Analyst &ndash; March 2014 to July 2015:</p>
+
+<ul>
+ <li>Responsible of servers deployment and monitoring.</li>
+ <li>Involvement in big data related proyects, specifically in the automation of server deployments.</li>
+ <li>Installation, configuration and use of software like IBM Websphere Portal and Domino in Linux and Windows</li>
+</ul>
+
+<h2 id='education'>Education</h2>
+
+<p>I have an Associate Degree of applied science in computer networking technology and graduated from the <a href='http://www.sena.edu.co/es-co/Paginas/default.aspx'>National Service of Learning</a> in 2013</p>
+<p>Besides that I have a bachelor degree in Engineering informatics, but most of my education has been gained through experience in my different jobs and through research on topics that I'm interested in.</p>
+<h2 id='aboutme'>About me</h2>
+
+<p>My name is Victor and I'm from Medellin – Colombia, I live in Portugal, I’m passionate about learning new things, reading, playing with arduino and raspberry, running and traveling. I’m open to work and live in other countries, I speak Spanish, English and Portuguese. I was learning German, but I abandoned it :D You cand find me also in <a href="https://www.linkedin.com/in/theviajerock/">Linkedin.</a></p>
 </div>
 
-<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
-  <nav class="navbar navbar-inverse" role="navigation">
-    <ul class="nav navbar-nav navbar-center">
-      <li class="col-md-3">
-        <button type="button" class="btn btn-default"  onclick="window.open('https://github.com/Theviajerock')" target="_blank">
-          <span class="fa fa-github">Github</span>  
-        </button>
-      </li>
-      <li class="col-md-3">
-        <button type="button" class="btn btn-default"  onclick="window.open('https://twitter.com/theviajerock')" target="_blank">
-          <span class="fa fa-twitter">Twitter</span>
-        </button>
-      </li>
-      <li class="col-md-3">
-        <button type="button" class="btn btn-default"  onclick="window.open('https://co.linkedin.com/in/theviajerock')" target="_blank">
-          <span class="fa fa-linkedin-square">Linkedin</span>
-        </button>
-      </li>
-      <li class="col-md-3">
-        <button type="button" class="btn btn-default"  onclick="window.open('http://freecodecamp.com/theviajerock')" target="_blank">
-          <span class="fa fa-hand-peace-o">Freecodecamp</span>
-        </button>
-      </li>
-          
-  </nav>
 </div>
 
-
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-<script src="js/fancybox.js"></script>
-
-<script>
-$(document).ready(function() {
-  $(".fancybox").fancybox({
-    openEffect  : 'none',
-    closeEffect : 'none'
-  });
-});
-</script>
 </body>
-
 </html>
