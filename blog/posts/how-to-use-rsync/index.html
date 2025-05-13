@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " vocab="http://ogp.me/ns" lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
-<title>How to use rsync | Thoughts, ideas and reminders</title>
-<link href="../../assets/css/all.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+<base href="https://sysdev.co/blog/posts/how-to-use-rsync/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to use rsync | Thoughts, ideas and reminders | Thoughts, ideas and reminders</title>
+<link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+<meta content="#5670d4" name="theme-color">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (es)" href="../../es/rss.xml">
-<link rel="canonical" href="http://theviajerock.github.io/myportfolio/blog/posts/how-to-use-rsync/">
+<link rel="canonical" href="https://sysdev.co/blog/posts/how-to-use-rsync/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Victor Hernandez">
 <link rel="prev" href="../how-to-setup-a-virtualenv-with-python3/" title="How to setup a virtualenv with python3" type="text/html">
-<meta property="og:site_name" content="Thoughts, ideas and reminders">
+<meta property="og:site_name" content="Thoughts, ideas and reminders | Thoughts, ideas and reminders">
 <meta property="og:title" content="How to use rsync">
-<meta property="og:url" content="http://theviajerock.github.io/myportfolio/blog/posts/how-to-use-rsync/">
+<meta property="og:url" content="https://sysdev.co/blog/posts/how-to-use-rsync/">
 <meta property="og:description" content="The most common uses of rsync are:
 I have two folders, folder1 and folder2  in different locations, i will copy the content of folder1 to folder2.
 
@@ -26,49 +27,78 @@ rsync has many o">
 <link rel="alternate" hreflang="es" href="../../es/posts/how-to-use-rsync/">
 </head>
 <body>
-    <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-            styles, `#sidebar-checkbox` for behavior. -->
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"><!-- Toggleable sidebar --><div class="sidebar" id="sidebar">
-        <div class="sidebar-item">
-            <p>A reserved <a href="https://getnikola.com" target="_blank">Nikola</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> for Jekyll,
-            ported to Nikola by <a href="https://twitter.com/ralsina" target="_blank">@ralsina</a>.</p>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://sysdev.co/blog/">
+
+                <span id="blog-title">Thoughts, ideas and reminders | Thoughts, ideas and reminders</span>
+            </a>
         </div>
-        
-    <nav id="menu" role="navigation" class="sidebar-nav"><a class="sidebar-nav-item" href="../../archive.html">Archive</a>
-        <a class="sidebar-nav-item" href="../../categories/">Tags</a>
-        <a class="sidebar-nav-item" href="../../rss.xml">RSS feed</a>
-    
-    
-    </nav>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
+            <ul class="nav navbar-nav">
+<li>
+<a href="../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../categories/">Tags</a>
+                </li>
+<li>
+<a href="../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+            </li>
+<li><a href="https://sysdev.co/blog/es/" rel="alternate" hreflang="es">Español</a></li>
+
+                
+                    
+    <li>
+    <a href="index.rst" id="sourcelink">Source</a>
+    </li>
+
+                
+            </ul>
 </div>
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          
-    <h3 id="brand" class="masthead-title">
-      <a href="http://theviajerock.github.io/myportfolio/blog/" title="Thoughts, ideas and reminders" rel="home">Thoughts, ideas and reminders</a>
-    </h3>
-
-        </div>
-      </div>
-
-      <div class="container content" id="content">
-        
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="post-title p-name entry-title" itemprop="headline name"><a href="." class="u-url">How to use rsync</a></h1>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">How to use rsync</a></h1>
 
         <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">Victor Hernandez</span></p>
-            <p class="dateline"><a href="." rel="bookmark"><time class="post-date published dt-published" datetime="2015-11-08T12:37:24-05:00" itemprop="datePublished" title="2015-11-08 12:37">2015-11-08 12:37</time></a></p>
+            <p class="byline author vcard"><span class="byline-name fn">
+                    Victor Hernandez
+            </span></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2015-11-08T12:37:24-05:00" itemprop="datePublished" title="2015-11-08 12:37">2015-11-08 12:37</time></a></p>
                 <p class="commentline">
         
 
 
+            
         </p>
-</div>
+<p class="sourceline"><a href="index.rst" id="sourcelink">Source</a></p>
+
+        </div>
         
         <div class="metadata posttranslations translations">
             <h3 class="posttranslations-intro">Also available in:</h3>
@@ -100,17 +130,21 @@ rsync -r folder1/* folder2</blockquote>
         
 
 
-        </section></article><footer id="footer"><p>Contents © 2015         <a href="mailto:victorliferock@gmail.com">Victor Hernandez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+        </section></article>
+</div>
+        <!--End of body content-->
+
+        <footer id="footer">
+            Contents © 2016         <a href="mailto:victorliferock@gmail.com">Victor Hernandez</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
             
         </footer>
 </div>
-    </div>
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-    
-    
-    
-    
+</div>
 
-    
+
+            <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates -->
 </body>
 </html>
